@@ -1,0 +1,48 @@
+name: Generar contenido semanal de Plexglobe
+
+on:
+  schedule:
+    # Domingos a las 16:00 UTC = 18:00 en Madrid (horario de verano)
+    - cron: "0 16 * * 0"
+  workflow_dispatch:        # y tambien a mano, desde la pestana Actions
+
+permissions:
+  contents: write           # necesario para que el bot pueda commitear las imagenes
+
+jobs:
+  generar:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@v4
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependencias
+        run: pip install --quiet pillow
+
+      - name: Renderizar las piezas de la semana
+        run: python3 generar.py
+
+      - name: Publicar imagenes en el repositorio
+        run: |
+          git config user.name  "plexglobe-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add salida/
+          if git diff --staged --quiet; then
+            echo "Sin cambios: nada que commitear."
+          else
+            git commit -m "Contenido semanal $(date +'%Y-%m-%d')"
+            git push
+          fi
+
+      - name: Resumen
+        run: |
+          echo "### Contenido generado" >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          ls -la salida/ >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
