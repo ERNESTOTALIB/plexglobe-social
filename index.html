@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Plexglobe · revisión de contenido</title>
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&family=Manrope:wght@400;500;700&family=Space+Grotesk:wght@500;700&family=Space+Mono&display=swap" rel="stylesheet">
+<style>
+  :root{ --cream:#F4EDE2; --ink:#1C1813; --clay:#C0562C; --muted:#6E6256; --line:#E0D6C6; }
+  *{ box-sizing:border-box; }
+  body{ margin:0; background:var(--cream); color:var(--ink);
+        font-family:Manrope,system-ui,sans-serif; -webkit-font-smoothing:antialiased; }
+  header{ padding:48px 32px 24px; border-bottom:1px solid var(--line); }
+  .eyebrow{ font-family:"Space Mono",monospace; font-size:12px; letter-spacing:.22em;
+            color:var(--clay); margin:0 0 14px; }
+  h1{ font-family:"Space Grotesk",sans-serif; font-weight:700; font-size:clamp(30px,5vw,50px);
+      margin:0 0 10px; letter-spacing:-.02em; }
+  h1 em{ font-family:"Instrument Serif",serif; font-style:italic; color:var(--clay); }
+  .lede{ margin:0; max-width:62ch; color:var(--muted); font-size:16px; line-height:1.55; }
+  .bar{ position:sticky; top:0; z-index:10; background:rgba(244,237,226,.94);
+        backdrop-filter:blur(8px); border-bottom:1px solid var(--line);
+        padding:14px 32px; display:flex; gap:8px; flex-wrap:wrap; align-items:center; }
+  button{ font-family:"Space Mono",monospace; font-size:12px; letter-spacing:.08em;
+          padding:9px 15px; border-radius:999px; border:1px solid var(--ink);
+          background:transparent; color:var(--ink); cursor:pointer; transition:.15s; }
+  button:hover{ background:var(--ink); color:var(--cream); }
+  button[aria-pressed="true"]{ background:var(--clay); border-color:var(--clay); color:#fff; }
+  .count{ margin-left:auto; font-family:"Space Mono",monospace; font-size:12px; color:var(--muted); }
+  main{ padding:32px; display:grid; gap:28px;
+        grid-template-columns:repeat(auto-fill,minmax(310px,1fr)); max-width:1500px; margin:0 auto; }
+  .card{ background:#fff; border:1px solid var(--line); border-radius:16px; overflow:hidden;
+         display:flex; flex-direction:column; }
+  .card img{ width:100%; display:block; background:var(--line); }
+  .meta{ padding:16px 18px 6px; display:flex; gap:8px; flex-wrap:wrap; align-items:center;
+         font-family:"Space Mono",monospace; font-size:10.5px; letter-spacing:.1em; }
+  .tag{ padding:4px 9px; border-radius:999px; background:var(--cream); color:var(--muted); }
+  .tag.dia{ background:var(--ink); color:var(--cream); }
+  .tag.sem{ background:var(--clay); color:#fff; }
+  .cap{ padding:6px 18px 18px; font-size:14px; line-height:1.6; white-space:pre-wrap;
+        color:#3A342C; flex:1; }
+  .cap .hash{ color:var(--clay); }
+  .acts{ padding:0 18px 18px; display:flex; gap:8px; }
+  .acts a,.acts button{ font-family:"Space Mono",monospace; font-size:11px; text-decoration:none;
+        padding:8px 12px; border-radius:999px; border:1px solid var(--line); color:var(--muted); }
+  .acts a:hover,.acts button:hover{ border-color:var(--ink); color:var(--ink); background:transparent; }
+  footer{ padding:40px 32px 70px; color:var(--muted); font-size:13px; border-top:1px solid var(--line);
+          max-width:1500px; margin:0 auto; line-height:1.6; }
+  .err{ padding:32px; font-family:"Space Mono",monospace; color:var(--clay); }
+  @media(max-width:640px){ header,main,.bar,footer{ padding-left:18px; padding-right:18px; } }
+</style>
+</head>
+<body>
+
+<header>
+  <p class="eyebrow">PLEXGLOBE · REVISIÓN INTERNA</p>
+  <h1>Contenido <em>pendiente</em> de aprobar</h1>
+  <p class="lede">Las 4 semanas del ciclo, con la imagen final y el texto tal cual saldrá publicado.
+     Nada de esto se publica hasta que lo aprobéis. Los hashtags van en naranja al final de cada texto.</p>
+</header>
+
+<div class="bar" id="filtros"></div>
+<main id="rejilla"></main>
+<footer id="pie"></footer>
+
+<script>
+const FUENTE = "salida/catalogo.json";
+let datos = [], filtro = "todo";
+
+const esc = s => s.replace(/[&<>]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+const conHashtags = s => esc(s).replace(/(#[\wÁÉÍÓÚÑáéíóúñ]+)/g, '<span class="hash">$1</span>');
+
+function pintarFiltros(){
+  const semanas = [...new Set(datos.map(d => d.semana))].sort();
+  const b = document.getElementById("filtros");
+  b.innerHTML = "";
+  const hacer = (txt, val) => {
+    const el = document.createElement("button");
+    el.textContent = txt;
+    el.setAttribute("aria-pressed", filtro === val);
+    el.onclick = () => { filtro = val; pintarFiltros(); pintar(); };
+    b.appendChild(el);
+  };
+  hacer("TODO", "todo");
+  semanas.forEach(s => hacer("SEMANA " + s, "s" + s));
+  const c = document.createElement("span");
+  c.className = "count";
+  c.id = "contador";
+  b.appendChild(c);
+}
+
+function pintar(){
+  const vis = filtro === "todo" ? datos : datos.filter(d => "s" + d.semana === filtro);
+  document.getElementById("contador").textContent = vis.length + " PIEZAS";
+  document.getElementById("rejilla").innerHTML = vis.map(d => `
+    <article class="card">
+      <img loading="lazy" src="${d.imagen_url}" alt="${d.id}">
+      <div class="meta">
+        <span class="tag sem">S${d.semana}</span>
+        <span class="tag dia">${d.dia.toUpperCase()}</span>
+        <span class="tag">${d.formato.toUpperCase()}</span>
+        <span class="tag">${d.medida || ""}</span>
+      </div>
+      <div class="cap">${conHashtags(d.caption)}</div>
+      <div class="acts">
+        <a href="${d.imagen_url}" target="_blank" rel="noopener">VER IMAGEN</a>
+        <button onclick="navigator.clipboard.writeText(${JSON.stringify(d.caption)});this.textContent='COPIADO'">COPIAR TEXTO</button>
+      </div>
+    </article>`).join("");
+}
+
+fetch(FUENTE)
+  .then(r => { if(!r.ok) throw new Error(r.status); return r.json(); })
+  .then(j => {
+    datos = j;
+    pintarFiltros();
+    pintar();
+    document.getElementById("pie").innerHTML =
+      `${j.length} piezas · generadas automáticamente desde las plantillas de marca de Plexglobe.<br>
+       Para cambiar un texto se edita <code>contenido.json</code> en el repositorio y se vuelve a lanzar el workflow.<br>
+       Esta página se actualiza sola cada vez que se regenera el contenido.`;
+  })
+  .catch(e => {
+    document.getElementById("rejilla").innerHTML =
+      `<p class="err">No se pudo cargar ${FUENTE} (${e.message}).<br>
+       Lanza el workflow «Generar contenido semanal» y recarga.</p>`;
+  });
+</script>
+</body>
+</html>
