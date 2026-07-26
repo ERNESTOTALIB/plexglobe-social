@@ -3,62 +3,93 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Plexglobe · revisión de contenido</title>
+<title>Plexglobe · Redes sociales</title>
 <meta name="robots" content="noindex">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&family=Manrope:wght@400;500;700&family=Space+Grotesk:wght@500;700&family=Space+Mono&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&family=Manrope:wght@400;500;700&family=Space+Grotesk:wght@500;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
 <style>
-  :root{ --cream:#F4EDE2; --ink:#1C1813; --clay:#C0562C; --muted:#6E6256; --line:#E0D6C6; }
+  :root{ --cream:#F4EDE2; --ink:#1C1813; --clay:#C0562C; --muted:#6E6256;
+         --line:#E0D6C6; --ok:#3F7A4F; }
   *{ box-sizing:border-box; }
   body{ margin:0; background:var(--cream); color:var(--ink);
         font-family:Manrope,system-ui,sans-serif; -webkit-font-smoothing:antialiased; }
-  header{ padding:48px 32px 24px; border-bottom:1px solid var(--line); }
+
+  header{ padding:44px 32px 22px; border-bottom:1px solid var(--line); }
   .eyebrow{ font-family:"Space Mono",monospace; font-size:12px; letter-spacing:.22em;
-            color:var(--clay); margin:0 0 14px; }
-  h1{ font-family:"Space Grotesk",sans-serif; font-weight:700; font-size:clamp(30px,5vw,50px);
+            color:var(--clay); margin:0 0 12px; }
+  h1{ font-family:"Space Grotesk",sans-serif; font-weight:700; font-size:clamp(28px,4.5vw,46px);
       margin:0 0 10px; letter-spacing:-.02em; }
   h1 em{ font-family:"Instrument Serif",serif; font-style:italic; color:var(--clay); }
-  .lede{ margin:0; max-width:62ch; color:var(--muted); font-size:16px; line-height:1.55; }
-  .bar{ position:sticky; top:0; z-index:10; background:rgba(244,237,226,.94);
+  .lede{ margin:0; max-width:64ch; color:var(--muted); font-size:15px; line-height:1.55; }
+
+  .bar{ position:sticky; top:0; z-index:20; background:rgba(244,237,226,.95);
         backdrop-filter:blur(8px); border-bottom:1px solid var(--line);
-        padding:14px 32px; display:flex; gap:8px; flex-wrap:wrap; align-items:center; }
-  button{ font-family:"Space Mono",monospace; font-size:12px; letter-spacing:.08em;
-          padding:9px 15px; border-radius:999px; border:1px solid var(--ink);
-          background:transparent; color:var(--ink); cursor:pointer; transition:.15s; }
-  button:hover{ background:var(--ink); color:var(--cream); }
-  button[aria-pressed="true"]{ background:var(--clay); border-color:var(--clay); color:#fff; }
-  .count{ margin-left:auto; font-family:"Space Mono",monospace; font-size:12px; color:var(--muted); }
-  main{ padding:32px; display:grid; gap:28px;
-        grid-template-columns:repeat(auto-fill,minmax(310px,1fr)); max-width:1500px; margin:0 auto; }
+        padding:13px 32px; display:flex; gap:8px; flex-wrap:wrap; align-items:center; }
+  .btn{ font-family:"Space Mono",monospace; font-size:11.5px; letter-spacing:.08em;
+        padding:9px 15px; border-radius:999px; border:1px solid var(--ink);
+        background:transparent; color:var(--ink); cursor:pointer; transition:.15s; }
+  .btn:hover{ background:var(--ink); color:var(--cream); }
+  .btn[aria-pressed="true"]{ background:var(--clay); border-color:var(--clay); color:#fff; }
+  .estado{ margin-left:auto; font-family:"Space Mono",monospace; font-size:11.5px; color:var(--muted); }
+
+  main{ padding:30px 32px 60px; display:grid; gap:26px;
+        grid-template-columns:repeat(auto-fill,minmax(330px,1fr)); max-width:1560px; margin:0 auto; }
+
   .card{ background:#fff; border:1px solid var(--line); border-radius:16px; overflow:hidden;
-         display:flex; flex-direction:column; }
-  .card img{ width:100%; display:block; background:var(--line); }
-  .meta{ padding:16px 18px 6px; display:flex; gap:8px; flex-wrap:wrap; align-items:center;
-         font-family:"Space Mono",monospace; font-size:10.5px; letter-spacing:.1em; }
+         display:flex; flex-direction:column; transition:border-color .15s; }
+  .card.ok{ border-color:var(--ok); box-shadow:0 0 0 1px var(--ok); }
+
+  .visor{ position:relative; background:var(--line); }
+  .visor img{ width:100%; display:block; }
+  .nav{ position:absolute; inset:0; display:flex; justify-content:space-between;
+        align-items:center; padding:0 10px; opacity:0; transition:.15s; pointer-events:none; }
+  .visor:hover .nav{ opacity:1; }
+  .nav button{ pointer-events:auto; width:38px; height:38px; border-radius:50%; border:none;
+        background:rgba(28,24,19,.72); color:#fff; font-size:17px; cursor:pointer; line-height:1; }
+  .nav button:hover{ background:var(--ink); }
+  .nav button[disabled]{ opacity:0; cursor:default; }
+  .puntos{ position:absolute; bottom:10px; left:0; right:0; display:flex; gap:5px;
+           justify-content:center; }
+  .puntos i{ width:6px; height:6px; border-radius:50%; background:rgba(255,255,255,.45); }
+  .puntos i.on{ background:#fff; }
+  .slidecount{ position:absolute; top:10px; right:10px; font-family:"Space Mono",monospace;
+        font-size:10px; letter-spacing:.1em; background:rgba(28,24,19,.72); color:#fff;
+        padding:4px 9px; border-radius:999px; }
+
+  .meta{ padding:15px 18px 5px; display:flex; gap:7px; flex-wrap:wrap; align-items:center;
+         font-family:"Space Mono",monospace; font-size:10px; letter-spacing:.1em; }
   .tag{ padding:4px 9px; border-radius:999px; background:var(--cream); color:var(--muted); }
   .tag.dia{ background:var(--ink); color:var(--cream); }
   .tag.sem{ background:var(--clay); color:#fff; }
-  .cap{ padding:6px 18px 18px; font-size:14px; line-height:1.6; white-space:pre-wrap;
+  .cap{ padding:6px 18px 16px; font-size:13.5px; line-height:1.6; white-space:pre-wrap;
         color:#3A342C; flex:1; }
   .cap .hash{ color:var(--clay); }
-  .acts{ padding:0 18px 18px; display:flex; gap:8px; }
-  .acts a,.acts button{ font-family:"Space Mono",monospace; font-size:11px; text-decoration:none;
-        padding:8px 12px; border-radius:999px; border:1px solid var(--line); color:var(--muted); }
-  .acts a:hover,.acts button:hover{ border-color:var(--ink); color:var(--ink); background:transparent; }
-  footer{ padding:40px 32px 70px; color:var(--muted); font-size:13px; border-top:1px solid var(--line);
-          max-width:1500px; margin:0 auto; line-height:1.6; }
+
+  .acts{ padding:0 18px 18px; display:flex; gap:8px; align-items:center; }
+  .aprobar{ flex:1; font-family:"Space Mono",monospace; font-size:11.5px; letter-spacing:.08em;
+        padding:11px 14px; border-radius:999px; border:1px solid var(--line);
+        background:transparent; color:var(--muted); cursor:pointer; transition:.15s; }
+  .aprobar:hover{ border-color:var(--ok); color:var(--ok); }
+  .aprobar.ok{ background:var(--ok); border-color:var(--ok); color:#fff; }
+  .mini{ font-family:"Space Mono",monospace; font-size:10.5px; text-decoration:none;
+        padding:11px 12px; border-radius:999px; border:1px solid var(--line); color:var(--muted);
+        background:transparent; cursor:pointer; }
+  .mini:hover{ border-color:var(--ink); color:var(--ink); }
+
+  footer{ padding:34px 32px 70px; color:var(--muted); font-size:12.5px;
+          border-top:1px solid var(--line); max-width:1560px; margin:0 auto; line-height:1.65; }
   .err{ padding:32px; font-family:"Space Mono",monospace; color:var(--clay); }
-  @media(max-width:640px){ header,main,.bar,footer{ padding-left:18px; padding-right:18px; } }
+  @media(max-width:640px){ header,main,.bar,footer{ padding-left:16px; padding-right:16px; } }
 </style>
 </head>
 <body>
 
 <header>
-  <p class="eyebrow">PLEXGLOBE · REVISIÓN INTERNA</p>
+  <p class="eyebrow">PLEXGLOBE · REDES SOCIALES</p>
   <h1>Contenido <em>pendiente</em> de aprobar</h1>
-  <p class="lede">Las 4 semanas del ciclo, con la imagen final y el texto tal cual saldrá publicado.
-     Nada de esto se publica hasta que lo aprobéis. Los hashtags van en naranja al final de cada texto.</p>
+  <p class="lede">Las 4 semanas del ciclo. Los carruseles tienen 5 diapositivas: pasa el ratón por
+     encima de la imagen y usa las flechas. Lo que apruebes aquí queda registrado y solo eso se publica.</p>
 </header>
 
 <div class="bar" id="filtros"></div>
@@ -66,66 +97,135 @@
 <footer id="pie"></footer>
 
 <script>
-const FUENTE = "salida/catalogo.json";
-let datos = [], filtro = "todo";
+const FUENTE  = "salida/catalogo.json";
+const WEBHOOK = "https://hook.eu1.make.com/ta3yglf4v2i20nme0x3x2sfslqrytnux";
 
-const esc = s => s.replace(/[&<>]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+let datos = [], filtro = "todo";
+const slideActual = {};
+const aprobados = JSON.parse(localStorage.getItem("pg_aprobados") || "{}");
+
+function quien(){
+  let q = localStorage.getItem("pg_quien");
+  if(!q){
+    q = (prompt("¿Quién eres? (para dejar constancia de quién aprueba)") || "").trim();
+    if(q) localStorage.setItem("pg_quien", q);
+  }
+  return q || "sin identificar";
+}
+
+const esc = s => String(s).replace(/[&<>]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
 const conHashtags = s => esc(s).replace(/(#[\wÁÉÍÓÚÑáéíóúñ]+)/g, '<span class="hash">$1</span>');
+
+function guardar(){ localStorage.setItem("pg_aprobados", JSON.stringify(aprobados)); }
+
+async function alternar(id){
+  const d = datos.find(x => x.id === id);
+  const nuevo = !aprobados[id];
+  const persona = nuevo ? quien() : (localStorage.getItem("pg_quien") || "sin identificar");
+
+  aprobados[id] = nuevo ? { por: persona, cuando: new Date().toISOString() } : null;
+  if(!nuevo) delete aprobados[id];
+  guardar(); pintar();
+
+  try{
+    await fetch(WEBHOOK, {
+      method:"POST", mode:"no-cors",
+      headers:{ "Content-Type":"application/json" },
+      body: JSON.stringify({
+        id, aprobado: nuevo ? "SI" : "NO", por: persona,
+        cuando: new Date().toISOString(),
+        semana: d.semana, dia: d.dia, formato: d.formato,
+        imagen_url: d.imagen_url, caption: d.caption
+      })
+    });
+  }catch(e){ /* no-cors no devuelve respuesta; el envio se hace igualmente */ }
+}
+
+function mover(id, paso){
+  const d = datos.find(x => x.id === id);
+  const n = (d.imagenes || [d.imagen_url]).length;
+  slideActual[id] = Math.max(0, Math.min(n - 1, (slideActual[id] || 0) + paso));
+  pintar();
+}
 
 function pintarFiltros(){
   const semanas = [...new Set(datos.map(d => d.semana))].sort();
-  const b = document.getElementById("filtros");
-  b.innerHTML = "";
+  const b = document.getElementById("filtros"); b.innerHTML = "";
   const hacer = (txt, val) => {
     const el = document.createElement("button");
-    el.textContent = txt;
+    el.className = "btn"; el.textContent = txt;
     el.setAttribute("aria-pressed", filtro === val);
     el.onclick = () => { filtro = val; pintarFiltros(); pintar(); };
     b.appendChild(el);
   };
-  hacer("TODO", "todo");
+  hacer("TODO","todo");
   semanas.forEach(s => hacer("SEMANA " + s, "s" + s));
-  const c = document.createElement("span");
-  c.className = "count";
-  c.id = "contador";
+  hacer("SOLO PENDIENTES","pend");
+  const c = document.createElement("span"); c.className="estado"; c.id="estado";
   b.appendChild(c);
 }
 
+function visibles(){
+  if(filtro === "todo") return datos;
+  if(filtro === "pend") return datos.filter(d => !aprobados[d.id]);
+  return datos.filter(d => "s" + d.semana === filtro);
+}
+
 function pintar(){
-  const vis = filtro === "todo" ? datos : datos.filter(d => "s" + d.semana === filtro);
-  document.getElementById("contador").textContent = vis.length + " PIEZAS";
-  document.getElementById("rejilla").innerHTML = vis.map(d => `
-    <article class="card">
-      <img loading="lazy" src="${d.imagen_url}" alt="${d.id}">
+  const vis = visibles();
+  const n = Object.keys(aprobados).length;
+  document.getElementById("estado").textContent =
+    `${vis.length} EN PANTALLA · ${n}/${datos.length} APROBADAS`;
+
+  document.getElementById("rejilla").innerHTML = vis.map(d => {
+    const imgs = d.imagenes || [d.imagen_url];
+    const i = Math.min(slideActual[d.id] || 0, imgs.length - 1);
+    const multi = imgs.length > 1;
+    const ok = !!aprobados[d.id];
+    return `
+    <article class="card ${ok?'ok':''}">
+      <div class="visor">
+        <img loading="lazy" src="${imgs[i]}" alt="${d.id} ${i+1}">
+        ${multi ? `
+          <span class="slidecount">${i+1} / ${imgs.length}</span>
+          <div class="nav">
+            <button onclick="mover('${d.id}',-1)" ${i===0?'disabled':''}>‹</button>
+            <button onclick="mover('${d.id}',1)" ${i===imgs.length-1?'disabled':''}>›</button>
+          </div>
+          <div class="puntos">${imgs.map((_,k)=>`<i class="${k===i?'on':''}"></i>`).join("")}</div>
+        `:``}
+      </div>
       <div class="meta">
         <span class="tag sem">S${d.semana}</span>
         <span class="tag dia">${d.dia.toUpperCase()}</span>
         <span class="tag">${d.formato.toUpperCase()}</span>
-        <span class="tag">${d.medida || ""}</span>
+        <span class="tag">${d.medida||""}</span>
+        ${multi?`<span class="tag">${imgs.length} DIAPOS</span>`:``}
       </div>
       <div class="cap">${conHashtags(d.caption)}</div>
       <div class="acts">
-        <a href="${d.imagen_url}" target="_blank" rel="noopener">VER IMAGEN</a>
-        <button onclick="navigator.clipboard.writeText(${JSON.stringify(d.caption)});this.textContent='COPIADO'">COPIAR TEXTO</button>
+        <button class="aprobar ${ok?'ok':''}" onclick="alternar('${d.id}')">
+          ${ok ? '✓ APROBADO · ' + esc(aprobados[d.id].por) : 'APROBAR'}
+        </button>
+        <button class="mini" onclick="navigator.clipboard.writeText(${JSON.stringify(d.caption)});this.textContent='✓'">COPIAR</button>
+        <a class="mini" href="${imgs[i]}" target="_blank" rel="noopener">VER</a>
       </div>
-    </article>`).join("");
+    </article>`;
+  }).join("");
 }
 
-fetch(FUENTE)
-  .then(r => { if(!r.ok) throw new Error(r.status); return r.json(); })
+fetch(FUENTE).then(r => { if(!r.ok) throw new Error(r.status); return r.json(); })
   .then(j => {
-    datos = j;
-    pintarFiltros();
-    pintar();
+    datos = j; pintarFiltros(); pintar();
+    const disp = j.reduce((a,d)=>a+((d.imagenes||[1]).length),0);
     document.getElementById("pie").innerHTML =
-      `${j.length} piezas · generadas automáticamente desde las plantillas de marca de Plexglobe.<br>
-       Para cambiar un texto se edita <code>contenido.json</code> en el repositorio y se vuelve a lanzar el workflow.<br>
-       Esta página se actualiza sola cada vez que se regenera el contenido.`;
+      `${j.length} publicaciones · ${disp} imágenes en total (los carruseles llevan 5 diapositivas cada uno).<br>
+       Cada aprobación se envía a Make y queda registrada con tu nombre y la hora. Solo se publica lo aprobado.<br>
+       Para cambiar un texto se edita <code>contenido.json</code> en el repositorio y se relanza el workflow.`;
   })
   .catch(e => {
     document.getElementById("rejilla").innerHTML =
-      `<p class="err">No se pudo cargar ${FUENTE} (${e.message}).<br>
-       Lanza el workflow «Generar contenido semanal» y recarga.</p>`;
+      `<p class="err">No se pudo cargar ${FUENTE} (${e.message}).<br>Lanza el workflow y recarga.</p>`;
   });
 </script>
 </body>

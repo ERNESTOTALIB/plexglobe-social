@@ -257,6 +257,58 @@ def tpl_f_auditoria(headline, kicker="SIN COSTE · SIN COMPROMISO",
     return img
 
 
+def tpl_carrusel_punto(numero, titulo, cuerpo, pagina=None):
+    """2/5 · 3/5 · 4/5 — fondo cream, numeral grande en clay (ver PDF p.7)."""
+    img = canvas(FEED, CREAM)
+    node_grid(img, INK, step=52, radius=2, alpha=26)
+    d = ImageDraw.Draw(img)
+    M = 84
+
+    d.text((M - 6, 120), str(numero).zfill(2), font=grotesk(168, 700), fill=CLAY)
+
+    y = 360
+    lines = rich_lines(d, titulo, FEED[0] - M * 2, 76, weight=700)
+    y = draw_rich(d, lines, M, y, 76, INK, leading=1.16, italic_color=CLAY)
+
+    fb = manrope(36, 450)
+    ancho = FEED[0] - M * 2
+    palabras, linea, y = cuerpo.split(), "", y + 40
+    for w in palabras:
+        prueba = (linea + " " + w).strip()
+        if d.textlength(prueba, font=fb) > ancho and linea:
+            d.text((M, y), linea, font=fb, fill=(90, 80, 70))
+            y += 52
+            linea = w
+        else:
+            linea = prueba
+    if linea:
+        d.text((M, y), linea, font=fb, fill=(90, 80, 70))
+
+    d.text((M, FEED[1] - M - 52), "→", font=grotesk(58, 600), fill=CLAY)
+    if pagina:
+        f = mono(24)
+        tw = sum(d.textlength(c, font=f) + 5 for c in pagina)
+        tracked(d, (FEED[0] - M - tw, FEED[1] - M - 30), pagina, f, (150, 136, 120), 5)
+    return img
+
+
+def tpl_carrusel_cierre(headline, cta="DM: «AUDIT»", foot="plexglobe.com", pagina="5 / 5 · CIERRE"):
+    """5/5 — fondo clay, cierre con llamada a la accion."""
+    img = canvas(FEED, CLAY)
+    node_grid(img, CREAM, step=52, radius=2, alpha=34)
+    d = ImageDraw.Draw(img)
+    M = 84
+
+    tracked(d, (M, 122), pagina, mono(23), (247, 226, 214), 6)
+
+    lines = rich_lines(d, headline, FEED[0] - M * 2, 96)
+    draw_rich(d, lines, M, 300, 96, CREAM, leading=1.14, italic_color=(255, 233, 220))
+
+    pill(d, (M, FEED[1] - M - 200), cta, mono(26, bold=True), INK, CREAM)
+    d.text((M, FEED[1] - M - 56), foot, font=manrope(30, 600), fill=(250, 232, 222))
+    return img
+
+
 def tpl_e_testimonial(quote, autor=None, sub=None):
     """E · Testimonial — fondo cream, comillas clay."""
     img = canvas(FEED, CREAM)

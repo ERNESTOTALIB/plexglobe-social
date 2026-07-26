@@ -3,237 +3,590 @@
     "marca": "Plexglobe",
     "web": "plexglobe.com",
     "ig": "@plexglobe",
-    "calendario_pdf": ["Carrusel", "Reel", "Carrusel", "Post", "Reel + Story", "Reel / Story", "Story"],
+    "calendario_pdf": [
+      "Carrusel",
+      "Reel",
+      "Carrusel",
+      "Post",
+      "Reel + Story",
+      "Reel / Story",
+      "Story"
+    ],
     "nota": "28 posts = 4 semanas. El generador rota por semana del ano, asi que el banco se repite cada 4 semanas. Anade mas entradas cuando quieras alargar el ciclo."
   },
   "hashtags": {
-    "base": ["#Plexglobe", "#DiseñoWeb", "#WebDesign"],
-    "nicho": ["#WebDesignUSA", "#DiseñoWebUSA", "#EstudioDigital", "#SmallBusinessUSA", "#Emprendedores", "#PymesDigitales"],
-    "seo": ["#SEO", "#SEOLocal", "#PosicionamientoWeb", "#MarketingDigital"]
+    "base": [
+      "#Plexglobe",
+      "#DiseñoWeb",
+      "#WebDesign"
+    ],
+    "nicho": [
+      "#WebDesignUSA",
+      "#DiseñoWebUSA",
+      "#EstudioDigital",
+      "#SmallBusinessUSA",
+      "#Emprendedores",
+      "#PymesDigitales"
+    ],
+    "seo": [
+      "#SEO",
+      "#SEOLocal",
+      "#PosicionamientoWeb",
+      "#MarketingDigital"
+    ]
   },
   "posts": [
     {
-      "id": "S1-L", "semana": 1, "dia": "lunes", "formato": "Carrusel", "plantilla": "D",
+      "id": "S1-L",
+      "semana": 1,
+      "dia": "lunes",
+      "formato": "Carrusel",
+      "plantilla": "D",
       "kicker": "CARRUSEL · TIP",
       "titular": "3 señales de que tu web te hace perder clientes",
       "pagina": "1 / 5 · PORTADA",
       "caption": "Si tu web tarda más de 3 segundos en cargar, la mitad de la gente ya se fue.\n\n1. Lenta\n2. No se ve bien en móvil\n3. Invisible en Google\n\nLas tres se arreglan. Y las tres cuestan dinero mientras no lo hagas.\n\nAuditoría gratis en plexglobe.com",
-      "tags": ["nicho", "seo"]
+      "tags": [
+        "nicho",
+        "seo"
+      ],
+      "slides": [
+        {
+          "n": 1,
+          "titulo": "Carga lenta",
+          "cuerpo": "Si tarda más de 3 s, la gente se va antes de entrar. Core Web Vitals importan."
+        },
+        {
+          "n": 2,
+          "titulo": "Invisible en Google e IA",
+          "cuerpo": "Sin SEO ni GEO no apareces en buscadores ni en respuestas de IA. No te encuentran."
+        },
+        {
+          "n": 3,
+          "titulo": "No convierte en móvil",
+          "cuerpo": "CTAs escondidos y formularios con fricción hacen perder clientes por el camino."
+        }
+      ],
+      "cierre": "Te lo revisamos *gratis.*"
     },
     {
-      "id": "S1-M", "semana": 1, "dia": "martes", "formato": "Reel", "plantilla": "STORY",
+      "id": "S1-M",
+      "semana": 1,
+      "dia": "martes",
+      "formato": "Reel",
+      "plantilla": "STORY",
       "kicker": "DETRÁS DE CÁMARAS",
       "titular": "Del nodo a la *red*",
       "pie": "Desliza arriba → auditoría gratis",
       "caption": "Una web no es una página. Es un sistema: diseño, contenido, SEO y velocidad tirando en la misma dirección.\n\nCuando una pieza falla, se nota en las ventas.",
-      "tags": ["base", "nicho"]
+      "tags": [
+        "base",
+        "nicho"
+      ]
     },
     {
-      "id": "S1-X", "semana": 1, "dia": "miércoles", "formato": "Carrusel", "plantilla": "D",
+      "id": "S1-X",
+      "semana": 1,
+      "dia": "miércoles",
+      "formato": "Carrusel",
+      "plantilla": "D",
       "kicker": "CARRUSEL · SEO",
       "titular": "SEO ya no basta. Ahora la IA tiene que citarte",
       "pagina": "1 / 5 · PORTADA",
       "caption": "Antes competías por salir en Google. Ahora compites por que ChatGPT y Gemini te nombren cuando alguien pregunta por tu sector.\n\nSe llama GEO. Y casi nadie lo está trabajando todavía.\n\nAhí hay una ventaja para quien se mueva primero.",
-      "tags": ["seo", "nicho"]
+      "tags": [
+        "seo",
+        "nicho"
+      ],
+      "slides": [
+        {
+          "n": 1,
+          "titulo": "SEO era salir en Google",
+          "cuerpo": "Palabras clave, enlaces, velocidad. Sigue haciendo falta, pero ya no basta."
+        },
+        {
+          "n": 2,
+          "titulo": "GEO es que la IA te cite",
+          "cuerpo": "ChatGPT y Gemini responden sin que nadie pinche tu web. O te nombran, o no existes."
+        },
+        {
+          "n": 3,
+          "titulo": "Se trabaja distinto",
+          "cuerpo": "Datos estructurados, respuestas claras y autoridad real. No hay truco rápido."
+        }
+      ],
+      "cierre": "¿Te cita la IA? Lo *comprobamos.*"
     },
     {
-      "id": "S1-J", "semana": 1, "dia": "jueves", "formato": "Post", "plantilla": "A",
+      "id": "S1-J",
+      "semana": 1,
+      "dia": "jueves",
+      "formato": "Post",
+      "plantilla": "A",
       "titular": "Webs y contenido que *conectan.*",
       "sub": "Diseño, desarrollo y SEO hacia un\nobjetivo.",
       "caption": "No hacemos webs bonitas. Hacemos webs que hacen algo: reservas, llamadas, formularios, ventas.\n\nSi tu web no tiene un objetivo medible, es un folleto caro.\n\nplexglobe.com",
-      "tags": ["base", "nicho"]
+      "tags": [
+        "base",
+        "nicho"
+      ]
     },
     {
-      "id": "S1-V", "semana": 1, "dia": "viernes", "formato": "Reel + Story", "plantilla": "STORY",
+      "id": "S1-V",
+      "semana": 1,
+      "dia": "viernes",
+      "formato": "Reel + Story",
+      "plantilla": "STORY",
       "kicker": "PROCESO",
       "titular": "Descubrir, diseñar, *construir*",
       "pie": "Y después, cuidar. Ese es el orden.",
       "caption": "Cuatro fases, sin saltarse ninguna:\n\nDESCUBRIR — qué vendes y a quién\nDISEÑAR — cómo se ve y cómo se navega\nCONSTRUIR — rápido, en móvil, indexable\nCUIDAR — porque una web sin mantenimiento se pudre\n\nLa mayoría de las agencias te dejan en la tercera.",
-      "tags": ["base", "nicho"]
+      "tags": [
+        "base",
+        "nicho"
+      ]
     },
     {
-      "id": "S1-S", "semana": 1, "dia": "sábado", "formato": "Reel / Story", "plantilla": "F",
+      "id": "S1-S",
+      "semana": 1,
+      "dia": "sábado",
+      "formato": "Reel / Story",
+      "plantilla": "F",
       "kicker": "SIN COSTE · SIN COMPROMISO",
       "titular": "Auditoría *gratis* de tu web",
       "cta": "DM: «AUDIT»",
       "caption": "Te decimos qué falla y cómo arreglarlo. Sin coste, sin compromiso, sin llamada de ventas de 45 minutos.\n\nEscríbenos «AUDIT» por DM y te mandamos el análisis.\n\nES/EN · EE.UU. → global",
-      "tags": ["nicho", "base"]
+      "tags": [
+        "nicho",
+        "base"
+      ]
     },
     {
-      "id": "S1-D", "semana": 1, "dia": "domingo", "formato": "Story", "plantilla": "STORY",
+      "id": "S1-D",
+      "semana": 1,
+      "dia": "domingo",
+      "formato": "Story",
+      "plantilla": "STORY",
       "kicker": "PREGUNTA",
       "titular": "¿Tu web *convierte?*",
       "pie": "Desliza arriba → auditoría gratis",
       "caption": "Sí / Ni idea. La segunda respuesta es la más común, y es la que cuesta dinero.",
-      "tags": ["base"]
+      "tags": [
+        "base"
+      ]
     },
-
     {
-      "id": "S2-L", "semana": 2, "dia": "lunes", "formato": "Carrusel", "plantilla": "D",
+      "id": "S2-L",
+      "semana": 2,
+      "dia": "lunes",
+      "formato": "Carrusel",
+      "plantilla": "D",
       "kicker": "CARRUSEL · MÓVIL",
       "titular": "7 de cada 10 visitas llegan desde el móvil",
       "pagina": "1 / 5 · PORTADA",
       "caption": "Y muchas webs siguen diseñándose primero para ordenador.\n\nSi tu menú no se toca bien con el pulgar, estás perdiendo a la mayoría de tu tráfico antes de que lean nada.",
-      "tags": ["nicho", "base"]
+      "tags": [
+        "nicho",
+        "base"
+      ],
+      "slides": [
+        {
+          "n": 1,
+          "titulo": "Diseñas para escritorio",
+          "cuerpo": "Y luego lo encoges. Se nota: menús que no se tocan, texto ilegible, botones diminutos."
+        },
+        {
+          "n": 2,
+          "titulo": "El pulgar manda",
+          "cuerpo": "Todo lo importante tiene que caer en la mitad inferior de la pantalla. Ahí llega la mano."
+        },
+        {
+          "n": 3,
+          "titulo": "Un formulario, tres campos",
+          "cuerpo": "Cada campo extra en móvil es gente que abandona. Pide lo mínimo para poder llamar."
+        }
+      ],
+      "cierre": "Auditamos tu móvil *gratis.*"
     },
     {
-      "id": "S2-M", "semana": 2, "dia": "martes", "formato": "Reel", "plantilla": "STORY",
+      "id": "S2-M",
+      "semana": 2,
+      "dia": "martes",
+      "formato": "Reel",
+      "plantilla": "STORY",
       "kicker": "0:15 · AUDITORÍA",
       "titular": "Tres cosas que miro *primero*",
       "pie": "Velocidad · móvil · indexación",
       "caption": "Cuando abro una web por primera vez miro tres cosas antes que el diseño:\n\n1. Cuánto tarda\n2. Cómo se ve en el móvil\n3. Si Google la encuentra\n\nSi falla una, el diseño da igual.",
-      "tags": ["seo", "nicho"]
+      "tags": [
+        "seo",
+        "nicho"
+      ]
     },
     {
-      "id": "S2-X", "semana": 2, "dia": "miércoles", "formato": "Carrusel", "plantilla": "D",
+      "id": "S2-X",
+      "semana": 2,
+      "dia": "miércoles",
+      "formato": "Carrusel",
+      "plantilla": "D",
       "kicker": "CARRUSEL · COMISIONES",
       "titular": "Cada reserva por portal te cuesta entre un 15 y un 20%",
       "pagina": "1 / 5 · PORTADA",
       "caption": "Booking, Airbnb, los agregadores de tu sector: cobran por traerte clientes que ya te estaban buscando.\n\nUna web con reserva directa se paga sola en unos meses. Haz el cálculo con tus números antes de creernos.",
-      "tags": ["nicho", "base"]
+      "tags": [
+        "nicho",
+        "base"
+      ],
+      "slides": [
+        {
+          "n": 1,
+          "titulo": "Pagas por clientes que ya te buscaban",
+          "cuerpo": "Muchos llegan al portal habiendo visto antes tu nombre. La comisión es por el clic final."
+        },
+        {
+          "n": 2,
+          "titulo": "Haz el cálculo",
+          "cuerpo": "Comisión media × reservas al año. Ese número es lo que te cuesta no tener web propia."
+        },
+        {
+          "n": 3,
+          "titulo": "Convivir, no romper",
+          "cuerpo": "Los portales te dan visibilidad. La web propia te da margen. Calendarios sincronizados y listo."
+        }
+      ],
+      "cierre": "Calculamos tu ahorro *gratis.*"
     },
     {
-      "id": "S2-J", "semana": 2, "dia": "jueves", "formato": "Post", "plantilla": "B",
+      "id": "S2-J",
+      "semana": 2,
+      "dia": "jueves",
+      "formato": "Post",
+      "plantilla": "B",
       "titulo_caso": "Villa Oliva Nova",
       "sub": "Reservas directas · sincronizado\nBooking/Airbnb",
       "metrica": "100% directas",
       "caption": "Alojamiento boutique en Valencia. Web propia con motor de reservas y calendarios sincronizados con los portales.\n\nResultado: reservas directas sin doble reserva y sin comisión.\n\n¿Tu negocio vive de un portal? Hablemos.",
-      "tags": ["nicho", "base"]
+      "tags": [
+        "nicho",
+        "base"
+      ]
     },
     {
-      "id": "S2-V", "semana": 2, "dia": "viernes", "formato": "Reel + Story", "plantilla": "STORY",
+      "id": "S2-V",
+      "semana": 2,
+      "dia": "viernes",
+      "formato": "Reel + Story",
+      "plantilla": "STORY",
       "kicker": "DETRÁS DE CÁMARAS",
       "titular": "Antes y *después*",
       "pie": "Más rápido, más claro, hecho para móvil",
       "caption": "El rediseño no va de cambiar colores. Va de quitar lo que estorba entre el visitante y la acción que quieres que haga.",
-      "tags": ["base", "nicho"]
+      "tags": [
+        "base",
+        "nicho"
+      ]
     },
     {
-      "id": "S2-S", "semana": 2, "dia": "sábado", "formato": "Reel / Story", "plantilla": "F",
+      "id": "S2-S",
+      "semana": 2,
+      "dia": "sábado",
+      "formato": "Reel / Story",
+      "plantilla": "F",
       "kicker": "SIN COSTE · SIN COMPROMISO",
       "titular": "Auditoría *gratis* de tu web",
       "cta": "DM: «AUDIT»",
       "caption": "Velocidad, móvil, SEO y conversión. Un informe corto y en cristiano, con lo que arreglarías primero.\n\nDM «AUDIT».",
-      "tags": ["nicho"]
+      "tags": [
+        "nicho"
+      ]
     },
     {
-      "id": "S2-D", "semana": 2, "dia": "domingo", "formato": "Story", "plantilla": "STORY",
+      "id": "S2-D",
+      "semana": 2,
+      "dia": "domingo",
+      "formato": "Story",
+      "plantilla": "STORY",
       "kicker": "ENCUESTA",
       "titular": "¿Cuándo tocaste tu web *por última vez?*",
       "pie": "Este mes / No me acuerdo",
       "caption": "«No me acuerdo» suele significar más de dos años. Y en dos años cambia todo: Google, los móviles, tus precios.",
-      "tags": ["base"]
+      "tags": [
+        "base"
+      ]
     },
-
     {
-      "id": "S3-L", "semana": 3, "dia": "lunes", "formato": "Carrusel", "plantilla": "D",
+      "id": "S3-L",
+      "semana": 3,
+      "dia": "lunes",
+      "formato": "Carrusel",
+      "plantilla": "D",
       "kicker": "CARRUSEL · VELOCIDAD",
       "titular": "Un segundo de más son ventas de menos",
       "pagina": "1 / 5 · PORTADA",
       "caption": "Las imágenes sin comprimir son la causa número uno de webs lentas. La número dos son los plugins que instalaste y nunca usaste.\n\nNinguna de las dos necesita rehacer la web para arreglarse.",
-      "tags": ["nicho", "seo"]
+      "tags": [
+        "nicho",
+        "seo"
+      ],
+      "slides": [
+        {
+          "n": 1,
+          "titulo": "Imágenes sin comprimir",
+          "cuerpo": "La causa número uno. Fotos de 4 MB que podrían pesar 200 KB sin perder calidad."
+        },
+        {
+          "n": 2,
+          "titulo": "Plugins que no usas",
+          "cuerpo": "Cada uno carga scripts en todas las páginas. Instalaste diez, usas dos."
+        },
+        {
+          "n": 3,
+          "titulo": "Hosting barato",
+          "cuerpo": "Si el servidor tarda medio segundo en responder, ya empiezas perdiendo."
+        }
+      ],
+      "cierre": "Medimos tu web *gratis.*"
     },
     {
-      "id": "S3-M", "semana": 3, "dia": "martes", "formato": "Reel", "plantilla": "STORY",
+      "id": "S3-M",
+      "semana": 3,
+      "dia": "martes",
+      "formato": "Reel",
+      "plantilla": "STORY",
       "kicker": "0:18 · EDUCACIÓN",
       "titular": "SEO → *GEO*",
       "pie": "Que la IA te cite, o no exista para ella",
       "caption": "GEO: optimizar para que los modelos de IA te mencionen cuando alguien les pregunta por tu sector.\n\nRequiere contenido estructurado, datos claros y autoridad real. No hay atajo, pero hay ventaja para quien empiece ya.",
-      "tags": ["seo", "nicho"]
+      "tags": [
+        "seo",
+        "nicho"
+      ]
     },
     {
-      "id": "S3-X", "semana": 3, "dia": "miércoles", "formato": "Carrusel", "plantilla": "D",
+      "id": "S3-X",
+      "semana": 3,
+      "dia": "miércoles",
+      "formato": "Carrusel",
+      "plantilla": "D",
       "kicker": "CARRUSEL · COPY",
       "titular": "Tu web habla de ti. Debería hablar de tu cliente",
       "pagina": "1 / 5 · PORTADA",
       "caption": "«Somos una empresa líder con más de 20 años de experiencia» no le resuelve nada a nadie.\n\n«Reserva sin comisiones» sí.\n\nCambia el sujeto de tus frases y la web empieza a funcionar.",
-      "tags": ["base", "nicho"]
+      "tags": [
+        "base",
+        "nicho"
+      ],
+      "slides": [
+        {
+          "n": 1,
+          "titulo": "«Somos líderes con 20 años»",
+          "cuerpo": "No resuelve nada. A tu cliente le da igual tu historia hasta que sabe qué gana él."
+        },
+        {
+          "n": 2,
+          "titulo": "Cambia el sujeto",
+          "cuerpo": "«Reserva sin comisiones» funciona. «Ofrecemos un servicio integral» no dice nada."
+        },
+        {
+          "n": 3,
+          "titulo": "Una idea por pantalla",
+          "cuerpo": "Si el visitante tiene que elegir entre seis cosas, no elige ninguna."
+        }
+      ],
+      "cierre": "Reescribimos tu home *gratis.*"
     },
     {
-      "id": "S3-J", "semana": 3, "dia": "jueves", "formato": "Post", "plantilla": "A",
+      "id": "S3-J",
+      "semana": 3,
+      "dia": "jueves",
+      "formato": "Post",
+      "plantilla": "A",
       "titular": "Diseño, desarrollo y SEO *en el mismo sitio.*",
       "sub": "Una sola conversación. Un solo\nresponsable.",
       "caption": "El problema de repartir la web entre tres proveedores es que cuando algo falla, ninguno es el responsable.\n\nES/EN · trabajamos desde EE.UU. hacia mercado global.",
-      "tags": ["base", "nicho"]
+      "tags": [
+        "base",
+        "nicho"
+      ]
     },
     {
-      "id": "S3-V", "semana": 3, "dia": "viernes", "formato": "Reel + Story", "plantilla": "STORY",
+      "id": "S3-V",
+      "semana": 3,
+      "dia": "viernes",
+      "formato": "Reel + Story",
+      "plantilla": "STORY",
       "kicker": "PROCESO",
       "titular": "6 nodos, un *sistema*",
       "pie": "Así montamos cada proyecto",
       "caption": "Estructura, contenido, diseño, desarrollo, SEO y mantenimiento. Seis piezas conectadas.\n\nSi contratas solo una, no esperes el resultado de las seis.",
-      "tags": ["base"]
+      "tags": [
+        "base"
+      ]
     },
     {
-      "id": "S3-S", "semana": 3, "dia": "sábado", "formato": "Reel / Story", "plantilla": "F",
+      "id": "S3-S",
+      "semana": 3,
+      "dia": "sábado",
+      "formato": "Reel / Story",
+      "plantilla": "F",
       "kicker": "SIN COSTE · SIN COMPROMISO",
       "titular": "¿Tu web pierde *clientes?*",
       "cta": "DM: «AUDIT»",
       "caption": "Te lo decimos gratis. Y si está bien, también te lo decimos.",
-      "tags": ["nicho"]
+      "tags": [
+        "nicho"
+      ]
     },
     {
-      "id": "S3-D", "semana": 3, "dia": "domingo", "formato": "Story", "plantilla": "STORY",
+      "id": "S3-D",
+      "semana": 3,
+      "dia": "domingo",
+      "formato": "Story",
+      "plantilla": "STORY",
       "kicker": "RECORDATORIO",
       "titular": "El link está en la *bio*",
       "pie": "plexglobe.com",
       "caption": "Auditoría gratis, sin compromiso, en español o inglés.",
-      "tags": ["base"]
+      "tags": [
+        "base"
+      ]
     },
-
     {
-      "id": "S4-L", "semana": 4, "dia": "lunes", "formato": "Carrusel", "plantilla": "D",
+      "id": "S4-L",
+      "semana": 4,
+      "dia": "lunes",
+      "formato": "Carrusel",
+      "plantilla": "D",
       "kicker": "CARRUSEL · ERRORES",
       "titular": "5 errores que veo en casi todas las webs de pymes",
       "pagina": "1 / 5 · PORTADA",
       "caption": "1. Sin llamada a la acción clara\n2. Formularios de 12 campos\n3. Teléfono que no se puede pulsar\n4. Textos escritos para el jefe, no para el cliente\n5. Sin analítica: nadie sabe qué pasa\n\nNinguno es caro de arreglar. Todos cuestan dinero cada día.",
-      "tags": ["nicho", "base"]
+      "tags": [
+        "nicho",
+        "base"
+      ],
+      "slides": [
+        {
+          "n": 1,
+          "titulo": "Sin llamada a la acción",
+          "cuerpo": "La gente llega, lee y se va. Nadie le dijo qué hacer después."
+        },
+        {
+          "n": 2,
+          "titulo": "Formularios de doce campos",
+          "cuerpo": "Cada campo es gente que abandona. Nombre, contacto y poco más."
+        },
+        {
+          "n": 3,
+          "titulo": "Nadie mide nada",
+          "cuerpo": "Sin analítica no sabes qué página vende y cuál sobra. Decides a ciegas."
+        }
+      ],
+      "cierre": "Los cinco, revisados *gratis.*"
     },
     {
-      "id": "S4-M", "semana": 4, "dia": "martes", "formato": "Reel", "plantilla": "STORY",
+      "id": "S4-M",
+      "semana": 4,
+      "dia": "martes",
+      "formato": "Reel",
+      "plantilla": "STORY",
       "kicker": "0:20 · PROCESO",
       "titular": "Descubrir → diseñar → *construir* → cuidar",
       "pie": "Cuatro fases. Ninguna opcional.",
       "caption": "El 90% de los problemas de una web vienen de haberse saltado la primera fase.\n\nSi nadie te preguntó qué querías conseguir, te vendieron una plantilla.",
-      "tags": ["base", "nicho"]
+      "tags": [
+        "base",
+        "nicho"
+      ]
     },
     {
-      "id": "S4-X", "semana": 4, "dia": "miércoles", "formato": "Carrusel", "plantilla": "D",
+      "id": "S4-X",
+      "semana": 4,
+      "dia": "miércoles",
+      "formato": "Carrusel",
+      "plantilla": "D",
       "kicker": "CARRUSEL · LOCAL",
       "titular": "Si vendes en una ciudad, el SEO local es tu mejor inversión",
       "pagina": "1 / 5 · PORTADA",
       "caption": "Ficha de Google bien rellenada, reseñas reales, páginas por servicio y zona.\n\nMenos glamuroso que rediseñar la home. Mucho más rentable.",
-      "tags": ["seo", "nicho"]
+      "tags": [
+        "seo",
+        "nicho"
+      ],
+      "slides": [
+        {
+          "n": 1,
+          "titulo": "Ficha de Google completa",
+          "cuerpo": "Horario, fotos, servicios, categoría correcta. Gratis y casi nadie la termina."
+        },
+        {
+          "n": 2,
+          "titulo": "Reseñas de verdad",
+          "cuerpo": "Pídelas después de cada trabajo bien hecho. Es la señal que más pesa en local."
+        },
+        {
+          "n": 3,
+          "titulo": "Una página por servicio y zona",
+          "cuerpo": "«Fontanero en Chamberí» posiciona. «Servicios» no posiciona nada."
+        }
+      ],
+      "cierre": "Revisamos tu SEO local *gratis.*"
     },
     {
-      "id": "S4-J", "semana": 4, "dia": "jueves", "formato": "Post", "plantilla": "E",
+      "id": "S4-J",
+      "semana": 4,
+      "dia": "jueves",
+      "formato": "Post",
+      "plantilla": "E",
       "titular": "Menos comisiones y reservas 100% directas. La web se paga sola.",
       "caption": "Lo que nos dijo un cliente después de seis meses.\n\nNo prometemos esto a todo el mundo: depende del sector, del volumen y de lo que estés pagando ahora en comisiones. Pero los números se pueden calcular antes de empezar.",
-      "tags": ["nicho", "base"]
+      "tags": [
+        "nicho",
+        "base"
+      ]
     },
     {
-      "id": "S4-V", "semana": 4, "dia": "viernes", "formato": "Reel + Story", "plantilla": "STORY",
+      "id": "S4-V",
+      "semana": 4,
+      "dia": "viernes",
+      "formato": "Reel + Story",
+      "plantilla": "STORY",
       "kicker": "DETRÁS DE CÁMARAS",
       "titular": "Cómo medimos si una web *funciona*",
       "pie": "No son las visitas",
       "caption": "Las visitas no pagan facturas. Miramos: formularios enviados, llamadas, reservas, y cuánto cuesta cada una.\n\nSi tu agencia te enseña un gráfico de visitas y nada más, pregunta por qué.",
-      "tags": ["base", "seo"]
+      "tags": [
+        "base",
+        "seo"
+      ]
     },
     {
-      "id": "S4-S", "semana": 4, "dia": "sábado", "formato": "Reel / Story", "plantilla": "F",
+      "id": "S4-S",
+      "semana": 4,
+      "dia": "sábado",
+      "formato": "Reel / Story",
+      "plantilla": "F",
       "kicker": "SIN COSTE · SIN COMPROMISO",
       "titular": "Auditoría *gratis* de tu web",
       "cta": "DM: «AUDIT»",
       "caption": "Última del mes. Escríbenos «AUDIT» y te mandamos el informe esta semana.\n\nES/EN.",
-      "tags": ["nicho"]
+      "tags": [
+        "nicho"
+      ]
     },
     {
-      "id": "S4-D", "semana": 4, "dia": "domingo", "formato": "Story", "plantilla": "STORY",
+      "id": "S4-D",
+      "semana": 4,
+      "dia": "domingo",
+      "formato": "Story",
+      "plantilla": "STORY",
       "kicker": "CIERRE DE MES",
       "titular": "Webs y contenido que *conectan*",
       "pie": "plexglobe.com",
       "caption": "Gracias por estar. Nos vemos el lunes.",
-      "tags": ["base"]
+      "tags": [
+        "base"
+      ]
     }
   ]
 }

@@ -73,10 +73,28 @@ def main():
     os.makedirs(OUT, exist_ok=True)
     catalogo = []
 
+    def guardar(img, nombre):
+        img.convert("RGB").save(os.path.join(OUT, nombre), "JPEG", quality=92, subsampling=0)
+        print(f"  ✓ {nombre}")
+        return f"{BASE_URL}/{nombre}"
+
     for p in posts:
         img, sufijo = render(p)
-        nombre = f"{p['id']}_{sufijo}.jpg"
-        img.convert("RGB").save(os.path.join(OUT, nombre), "JPEG", quality=92, subsampling=0)
+        urls = [guardar(img, f"{p['id']}_{sufijo}.jpg")]
+
+        # carrusel completo: portada + 3 puntos + cierre (estructura del PDF)
+        slides = p.get("slides") or []
+        total = len(slides) + 2 if slides else 1
+        for s in slides:
+            pag = f"{s['n'] + 1} / {total}"
+            urls.append(guardar(
+                R.tpl_carrusel_punto(s["n"], s["titulo"], s["cuerpo"], pagina=pag),
+                f"{p['id']}-{s['n'] + 1}_4x5.jpg"))
+        if slides:
+            urls.append(guardar(
+                R.tpl_carrusel_cierre(p.get("cierre", "Auditoría *gratis* de tu web"),
+                                      pagina=f"{total} / {total} · CIERRE"),
+                f"{p['id']}-{total}_4x5.jpg"))
 
         catalogo.append({
             "id": p["id"],
@@ -85,13 +103,14 @@ def main():
             "formato": p["formato"],
             "plantilla": p["plantilla"],
             "medida": "1080×1350" if sufijo == "4x5" else "1080×1920",
-            "imagen_url": f"{BASE_URL}/{nombre}",
+            "diapositivas": len(urls),
+            "imagen_url": urls[0],
+            "imagenes": urls,
             "caption": p["caption"].strip() + "\n\n" + " ".join(hashtags(data["hashtags"], p.get("tags", ["base"]))),
             "aprobado": "",
             "publicado_ig": "",
             "publicado_fb": "",
         })
-        print(f"  ✓ {nombre}")
 
     with open(os.path.join(OUT, "catalogo.json"), "w", encoding="utf-8") as f:
         json.dump(catalogo, f, ensure_ascii=False, indent=2)
