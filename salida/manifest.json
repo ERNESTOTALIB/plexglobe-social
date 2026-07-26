@@ -6,7 +6,15 @@
     "formato": "Carrusel",
     "plantilla": "D",
     "medida": "1080×1350",
+    "diapositivas": 5,
     "imagen_url": "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S2-L_4x5.jpg",
+    "imagenes": [
+      "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S2-L_4x5.jpg",
+      "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S2-L-2_4x5.jpg",
+      "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S2-L-3_4x5.jpg",
+      "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S2-L-4_4x5.jpg",
+      "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S2-L-5_4x5.jpg"
+    ],
     "caption": "Y muchas webs siguen diseñándose primero para ordenador.\n\nSi tu menú no se toca bien con el pulgar, estás perdiendo a la mayoría de tu tráfico antes de que lean nada.\n\n#WebDesignUSA #DiseñoWebUSA #EstudioDigital #SmallBusinessUSA #Emprendedores #PymesDigitales #Plexglobe #DiseñoWeb #WebDesign",
     "aprobado": "",
     "publicado_ig": "",
@@ -19,7 +27,11 @@
     "formato": "Reel",
     "plantilla": "STORY",
     "medida": "1080×1920",
+    "diapositivas": 1,
     "imagen_url": "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S2-M_9x16.jpg",
+    "imagenes": [
+      "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S2-M_9x16.jpg"
+    ],
     "caption": "Cuando abro una web por primera vez miro tres cosas antes que el diseño:\n\n1. Cuánto tarda\n2. Cómo se ve en el móvil\n3. Si Google la encuentra\n\nSi falla una, el diseño da igual.\n\n#SEO #SEOLocal #PosicionamientoWeb #MarketingDigital #WebDesignUSA #DiseñoWebUSA #EstudioDigital #SmallBusinessUSA #Emprendedores #PymesDigitales",
     "aprobado": "",
     "publicado_ig": "",
@@ -32,7 +44,15 @@
     "formato": "Carrusel",
     "plantilla": "D",
     "medida": "1080×1350",
+    "diapositivas": 5,
     "imagen_url": "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S2-X_4x5.jpg",
+    "imagenes": [
+      "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S2-X_4x5.jpg",
+      "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S2-X-2_4x5.jpg",
+      "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S2-X-3_4x5.jpg",
+      "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S2-X-4_4x5.jpg",
+      "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S2-X-5_4x5.jpg"
+    ],
     "caption": "Booking, Airbnb, los agregadores de tu sector: cobran por traerte clientes que ya te estaban buscando.\n\nUna web con reserva directa se paga sola en unos meses. Haz el cálculo con tus números antes de creernos.\n\n#WebDesignUSA #DiseñoWebUSA #EstudioDigital #SmallBusinessUSA #Emprendedores #PymesDigitales #Plexglobe #DiseñoWeb #WebDesign",
     "aprobado": "",
     "publicado_ig": "",
@@ -45,7 +65,11 @@
     "formato": "Post",
     "plantilla": "B",
     "medida": "1080×1350",
+    "diapositivas": 1,
     "imagen_url": "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S2-J_4x5.jpg",
+    "imagenes": [
+      "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S2-J_4x5.jpg"
+    ],
     "caption": "Alojamiento boutique en Valencia. Web propia con motor de reservas y calendarios sincronizados con los portales.\n\nResultado: reservas directas sin doble reserva y sin comisión.\n\n¿Tu negocio vive de un portal? Hablemos.\n\n#WebDesignUSA #DiseñoWebUSA #EstudioDigital #SmallBusinessUSA #Emprendedores #PymesDigitales #Plexglobe #DiseñoWeb #WebDesign",
     "aprobado": "",
     "publicado_ig": "",
@@ -58,7 +82,11 @@
     "formato": "Reel + Story",
     "plantilla": "STORY",
     "medida": "1080×1920",
+    "diapositivas": 1,
     "imagen_url": "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S2-V_9x16.jpg",
+    "imagenes": [
+      "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S2-V_9x16.jpg"
+    ],
     "caption": "El rediseño no va de cambiar colores. Va de quitar lo que estorba entre el visitante y la acción que quieres que haga.\n\n#Plexglobe #DiseñoWeb #WebDesign #WebDesignUSA #DiseñoWebUSA #EstudioDigital #SmallBusinessUSA #Emprendedores #PymesDigitales",
     "aprobado": "",
     "publicado_ig": "",
@@ -71,7 +99,11 @@
     "formato": "Reel / Story",
     "plantilla": "F",
     "medida": "1080×1350",
+    "diapositivas": 1,
     "imagen_url": "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S2-S_4x5.jpg",
+    "imagenes": [
+      "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S2-S_4x5.jpg"
+    ],
     "caption": "Velocidad, móvil, SEO y conversión. Un informe corto y en cristiano, con lo que arreglarías primero.\n\nDM «AUDIT».\n\n#WebDesignUSA #DiseñoWebUSA #EstudioDigital #SmallBusinessUSA #Emprendedores #PymesDigitales",
     "aprobado": "",
     "publicado_ig": "",
@@ -84,7 +116,11 @@
     "formato": "Story",
     "plantilla": "STORY",
     "medida": "1080×1920",
+    "diapositivas": 1,
     "imagen_url": "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S2-D_9x16.jpg",
+    "imagenes": [
+      "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S2-D_9x16.jpg"
+    ],
     "caption": "«No me acuerdo» suele significar más de dos años. Y en dos años cambia todo: Google, los móviles, tus precios.\n\n#Plexglobe #DiseñoWeb #WebDesign",
     "aprobado": "",
     "publicado_ig": "",
