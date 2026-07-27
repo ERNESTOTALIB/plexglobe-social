@@ -17,6 +17,7 @@ import json
 import os
 
 import plexglobe_render as R
+import estilos as E
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "salida")
@@ -38,6 +39,30 @@ def hashtags(banco, grupos):
 
 
 def render(post):
+    """Si el post trae 'estilo', manda el estilo con foto. Si no, la plantilla clasica."""
+    est = post.get("estilo")
+    vert = post["plantilla"] == "STORY"
+    suf = "9x16" if vert else "4x5"
+    pag = post.get("pagina")
+
+    if est == "A":
+        return E.estilo_a(post["titular"], post["foto"], kicker=post.get("kicker"),
+                          sub=post.get("sub"), vertical=vert,
+                          foco=post.get("foco", 0.15), pagina=pag), suf
+    if est == "B":
+        return E.estilo_b(post["titular"], post["foto"], post["datos"],
+                          kicker=post.get("kicker", "CASO"),
+                          foco=post.get("foco", 0.0), pagina=pag), "4x5"
+    if est == "C":
+        return E.estilo_c(post["dato"], post["titular"], kicker=post.get("kicker", ""),
+                          img_nombre=post.get("foto"), pie=post.get("pie", "plexglobe.com"),
+                          vertical=vert, pagina=pag), suf
+    if est == "D":
+        return E.estilo_d(post["titular"], post["foto"],
+                          kicker=post.get("kicker", "ESTUDIO DIGITAL · EE.UU. → GLOBAL"),
+                          sub=post.get("sub"), cta=post.get("cta"), vertical=vert,
+                          foco=post.get("foco", 0.3), pagina=pag), suf
+
     t = post["plantilla"]
     if t == "A":
         return R.tpl_a_propuesta(post["titular"], post.get("sub", "")), "4x5"
