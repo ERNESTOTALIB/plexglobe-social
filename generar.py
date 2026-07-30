@@ -125,6 +125,9 @@ def main():
             "id": p["id"],
             "semana": p["semana"],
             "dia": p["dia"],
+            "idioma": p.get("idioma", "es"),
+            "alternativa": bool(p.get("alternativa")),
+            "serie": p.get("serie", ""),
             "formato": p["formato"],
             "plantilla": p["plantilla"],
             "medida": "1080×1350" if sufijo == "4x5" else "1080×1920",
@@ -140,7 +143,9 @@ def main():
     with open(os.path.join(OUT, "catalogo.json"), "w", encoding="utf-8") as f:
         json.dump(catalogo, f, ensure_ascii=False, indent=2)
 
-    manifest = [c for c in catalogo if c["semana"] == sem]
+    # las alternativas (p. ej. la version en ingles) viven en la galeria para
+    # que elijais, pero nunca entran en lo que publica Make automaticamente
+    manifest = [c for c in catalogo if c["semana"] == sem and not c["alternativa"]]
     with open(os.path.join(OUT, "manifest.json"), "w", encoding="utf-8") as f:
         json.dump(manifest, f, ensure_ascii=False, indent=2)
 

@@ -92,34 +92,20 @@
       "id": "S1-X",
       "semana": 1,
       "dia": "miércoles",
-      "formato": "Carrusel",
-      "plantilla": "D",
-      "kicker": "CARRUSEL · SEO",
-      "titular": "SEO ya no basta. Ahora la IA tiene que citarte",
-      "pagina": "1 / 5 · PORTADA",
-      "caption": "Antes competías por salir en Google. Ahora compites por que ChatGPT y Gemini te nombren cuando alguien pregunta por tu sector.\n\nSe llama GEO. Y casi nadie lo está trabajando todavía.\n\nAhí hay una ventaja para quien se mueva primero.",
+      "formato": "Post",
+      "plantilla": "F",
+      "kicker": "6 AUDITORÍAS · MIAMI",
+      "titular": "La nota media de las webs que *auditamos.*",
+      "caption": "Auditamos seis webs de salones y centros de belleza de Miami en julio.\n\nNota media: 68 sobre 100. La mejor sacó 76. La peor, 52.\n\nNinguna llegó al notable. Y no eran negocios pequeños ni descuidados: tienen buenas reseñas, clientela fiel y trabajo excelente.\n\nEl problema nunca es el negocio. Es que la web se quedó atrás y nadie se lo dijo.\n\nAuditoría gratis de la tuya en plexglobe.com",
       "tags": [
-        "seo",
-        "nicho"
+        "nicho",
+        "seo"
       ],
-      "slides": [
-        {
-          "n": 1,
-          "titulo": "SEO era salir en Google",
-          "cuerpo": "Palabras clave, enlaces, velocidad. Sigue haciendo falta, pero ya no basta."
-        },
-        {
-          "n": 2,
-          "titulo": "GEO es que la IA te cite",
-          "cuerpo": "ChatGPT y Gemini responden sin que nadie pinche tu web. O te nombran, o no existes."
-        },
-        {
-          "n": 3,
-          "titulo": "Se trabaja distinto",
-          "cuerpo": "Datos estructurados, respuestas claras y autoridad real. No hay truco rápido."
-        }
-      ],
-      "cierre": "¿Te cita la IA? Lo *comprobamos.*"
+      "serie": "auditorias",
+      "estilo": "C",
+      "dato": "68",
+      "pie": "Sobre 100. Ninguna llegó a 80.",
+      "idioma": "es"
     },
     {
       "id": "S1-J",
@@ -264,34 +250,20 @@
       "id": "S2-X",
       "semana": 2,
       "dia": "miércoles",
-      "formato": "Carrusel",
-      "plantilla": "D",
-      "kicker": "CARRUSEL · COMISIONES",
-      "titular": "Cada reserva por portal te cuesta entre un 15 y un 20%",
-      "pagina": "1 / 5 · PORTADA",
-      "caption": "Booking, Airbnb, los agregadores de tu sector: cobran por traerte clientes que ya te estaban buscando.\n\nUna web con reserva directa se paga sola en unos meses. Haz el cálculo con tus números antes de creernos.",
+      "formato": "Post",
+      "plantilla": "F",
+      "kicker": "HALLAZGO REPETIDO",
+      "titular": "Fallaban en *móvil.*",
+      "caption": "De las seis webs que auditamos, cuatro tenían un problema serio en móvil.\n\nNo de diseño: de configuración. Una etiqueta mal puesta, un zoom bloqueado, una maquetación de hace diez años que nunca se adaptó.\n\nSon fallos de minutos que llevan años costando clientes, porque casi nadie prueba su propia web desde el teléfono como lo hace un cliente nuevo.\n\nÁbrela ahora en tu móvil. En serio.",
       "tags": [
         "nicho",
         "base"
       ],
-      "slides": [
-        {
-          "n": 1,
-          "titulo": "Pagas por clientes que ya te buscaban",
-          "cuerpo": "Muchos llegan al portal habiendo visto antes tu nombre. La comisión es por el clic final."
-        },
-        {
-          "n": 2,
-          "titulo": "Haz el cálculo",
-          "cuerpo": "Comisión media × reservas al año. Ese número es lo que te cuesta no tener web propia."
-        },
-        {
-          "n": 3,
-          "titulo": "Convivir, no romper",
-          "cuerpo": "Los portales te dan visibilidad. La web propia te da margen. Calendarios sincronizados y listo."
-        }
-      ],
-      "cierre": "Calculamos tu ahorro *gratis.*"
+      "serie": "auditorias",
+      "estilo": "C",
+      "dato": "4 / 6",
+      "pie": "Donde está el 70% del tráfico",
+      "idioma": "es"
     },
     {
       "id": "S2-J",
@@ -428,37 +400,20 @@
       "id": "S3-X",
       "semana": 3,
       "dia": "miércoles",
-      "formato": "Carrusel",
-      "plantilla": "D",
-      "kicker": "VELOCIDAD",
-      "titular": "Lo que tarda en irse la *mitad* de tu tráfico.",
-      "pagina": "1 / 5 · PORTADA",
-      "caption": "«Somos una empresa líder con más de 20 años de experiencia» no le resuelve nada a nadie.\n\n«Reserva sin comisiones» sí.\n\nCambia el sujeto de tus frases y la web empieza a funcionar.",
+      "formato": "Post",
+      "plantilla": "F",
+      "kicker": "HALLAZGOS · 6 WEBS",
+      "titular": "Problemas encontrados. *Nueve graves.*",
+      "caption": "Veinte hallazgos en seis webs: nueve graves, seis medios, cinco leves.\n\nUna media de más de tres problemas por sitio.\n\nLo llamativo no es la cantidad. Es que ni uno solo era caro de arreglar. Ninguno requería rehacer la web entera. La mayoría se resolvía en una tarde.\n\nLlevaban años ahí porque nadie había mirado.",
       "tags": [
-        "base",
-        "nicho"
+        "nicho",
+        "seo"
       ],
-      "slides": [
-        {
-          "n": 1,
-          "titulo": "«Somos líderes con 20 años»",
-          "cuerpo": "No resuelve nada. A tu cliente le da igual tu historia hasta que sabe qué gana él."
-        },
-        {
-          "n": 2,
-          "titulo": "Cambia el sujeto",
-          "cuerpo": "«Reserva sin comisiones» funciona. «Ofrecemos un servicio integral» no dice nada."
-        },
-        {
-          "n": 3,
-          "titulo": "Una idea por pantalla",
-          "cuerpo": "Si el visitante tiene que elegir entre seis cosas, no elige ninguna."
-        }
-      ],
-      "cierre": "Reescribimos tu home *gratis.*",
       "estilo": "C",
-      "dato": "3 s",
-      "pie": "plexglobe.com"
+      "dato": "20",
+      "pie": "3,3 de media por web",
+      "serie": "auditorias",
+      "idioma": "es"
     },
     {
       "id": "S3-J",
@@ -588,38 +543,20 @@
       "id": "S4-X",
       "semana": 4,
       "dia": "miércoles",
-      "formato": "Carrusel",
-      "plantilla": "D",
-      "kicker": "CARRUSEL · LOCAL",
-      "titular": "Si vendes en una ciudad, el SEO local es tu mejor inversión",
-      "pagina": "1 / 5 · PORTADA",
-      "caption": "Ficha de Google bien rellenada, reseñas reales, páginas por servicio y zona.\n\nMenos glamuroso que rediseñar la home. Mucho más rentable.",
+      "formato": "Post",
+      "plantilla": "F",
+      "kicker": "SEÑALES DE CONFIANZA",
+      "titular": "Usaban un correo *personal* como contacto.",
+      "caption": "Dos de las seis webs auditadas ponían como contacto público un correo personal: uno de Gmail, otro de Yahoo.\n\nParece un detalle. No lo es.\n\nUn cliente que duda entre dos negocios y ve un @yahoo lee «pequeño, improvisado, quizá ya no exista». El de al lado tiene info@sudominio.com y transmite lo contrario, sin haber hecho nada mejor.\n\nCuesta unos euros al año y se configura en veinte minutos.",
       "tags": [
-        "seo",
-        "nicho"
+        "nicho",
+        "base"
       ],
-      "slides": [
-        {
-          "n": 1,
-          "titulo": "Ficha de Google completa",
-          "cuerpo": "Horario, fotos, servicios, categoría correcta. Gratis y casi nadie la termina."
-        },
-        {
-          "n": 2,
-          "titulo": "Reseñas de verdad",
-          "cuerpo": "Pídelas después de cada trabajo bien hecho. Es la señal que más pesa en local."
-        },
-        {
-          "n": 3,
-          "titulo": "Una página por servicio y zona",
-          "cuerpo": "«Fontanero en Chamberí» posiciona. «Servicios» no posiciona nada."
-        }
-      ],
-      "cierre": "Revisamos tu SEO local *gratis.*",
-      "estilo": "D",
-      "foto": "tripcazador-2.webp",
-      "foco": 0.3,
-      "sub": "El SEO local es la inversión rentable"
+      "estilo": "C",
+      "serie": "auditorias",
+      "dato": "2 / 6",
+      "pie": "@gmail y @yahoo, no el dominio",
+      "idioma": "es"
     },
     {
       "id": "S4-J",
@@ -682,6 +619,86 @@
       "pie": "plexglobe.com",
       "caption": "Gracias por estar. Nos vemos el lunes.",
       "tags": [
+        "base"
+      ]
+    },
+    {
+      "id": "S1-X-EN",
+      "semana": 1,
+      "dia": "miércoles",
+      "formato": "Post",
+      "plantilla": "F",
+      "estilo": "C",
+      "alternativa": true,
+      "idioma": "en",
+      "serie": "auditorias",
+      "dato": "68",
+      "kicker": "6 AUDITS · MIAMI",
+      "titular": "The average score of the sites we *audited.*",
+      "pie": "Out of 100. None reached 80.",
+      "caption": "We audited six salon and beauty websites in Miami this July.\n\nAverage score: 68 out of 100. Best was 76. Worst was 52.\n\nNot one hit 80. And these aren't careless businesses — they have great reviews, loyal clients and genuinely good work.\n\nThe business is never the problem. The website quietly fell behind, and nobody told them.\n\nFree audit of yours at plexglobe.com",
+      "tags": [
+        "nicho",
+        "seo"
+      ]
+    },
+    {
+      "id": "S2-X-EN",
+      "semana": 2,
+      "dia": "miércoles",
+      "formato": "Post",
+      "plantilla": "F",
+      "estilo": "C",
+      "alternativa": true,
+      "idioma": "en",
+      "serie": "auditorias",
+      "dato": "4 / 6",
+      "kicker": "MOST COMMON FINDING",
+      "titular": "Were broken on *mobile.*",
+      "pie": "Where most of your clients are",
+      "caption": "Four of the six sites we audited had a serious mobile problem.\n\nNot a design problem — a settings problem. One wrong tag. Pinch-zoom disabled. A ten-year-old layout that never adapted.\n\nMinutes to fix. Years of lost bookings.\n\nAlmost nobody opens their own site on a phone the way a first-time client does. Do it right now.",
+      "tags": [
+        "nicho",
+        "base"
+      ]
+    },
+    {
+      "id": "S3-X-EN",
+      "semana": 3,
+      "dia": "miércoles",
+      "formato": "Post",
+      "plantilla": "F",
+      "estilo": "C",
+      "alternativa": true,
+      "idioma": "en",
+      "serie": "auditorias",
+      "dato": "20",
+      "kicker": "FINDINGS · 6 SITES",
+      "titular": "Issues found. *Nine critical.*",
+      "pie": "3.3 per site on average",
+      "caption": "Twenty findings across six websites: nine high severity, six medium, five low.\n\nOver three problems per site.\n\nThe striking part isn't the count. It's that not one of them was expensive to fix. None needed a rebuild. Most were an afternoon's work.\n\nThey'd been sitting there for years because nobody had looked.",
+      "tags": [
+        "nicho",
+        "seo"
+      ]
+    },
+    {
+      "id": "S4-X-EN",
+      "semana": 4,
+      "dia": "miércoles",
+      "formato": "Post",
+      "plantilla": "F",
+      "estilo": "C",
+      "alternativa": true,
+      "idioma": "en",
+      "serie": "auditorias",
+      "dato": "2 / 6",
+      "kicker": "TRUST SIGNALS",
+      "titular": "Used a *personal* email as their contact.",
+      "pie": "@gmail and @yahoo, not the domain",
+      "caption": "Two of the six sites listed a personal email as their public contact — one Gmail, one Yahoo.\n\nSounds minor. It isn't.\n\nA client choosing between two places sees @yahoo and reads \"small, improvised, might not even exist anymore.\" The competitor down the street has info@theirdomain.com and reads the opposite — without being any better at the job.\n\nA few dollars a year. Twenty minutes to set up.",
+      "tags": [
+        "nicho",
         "base"
       ]
     }
