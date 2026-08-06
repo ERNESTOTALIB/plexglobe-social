@@ -193,7 +193,7 @@ def canvas(sz, bg):
 
 
 # ---------------------------------------------------------------- plantillas
-def tpl_a_propuesta(headline, sub, eyebrow="ESTUDIO DIGITAL · EE.UU. → GLOBAL"):
+def tpl_a_propuesta(headline, sub, eyebrow="DIGITAL STUDIO · MIAMI → GLOBAL"):
     """A · Propuesta de valor — fondo cream, trama de nodos."""
     img = canvas(FEED, CREAM)
     node_grid(img, INK, step=52, radius=2, alpha=38)
@@ -216,7 +216,7 @@ def tpl_a_propuesta(headline, sub, eyebrow="ESTUDIO DIGITAL · EE.UU. → GLOBAL
     return img
 
 
-def tpl_d_carrusel(headline, kicker="CARRUSEL · TIP", page=None):
+def tpl_d_carrusel(headline, kicker="GOT A WEBSITE? READ THIS", page=None):
     """D · Carrusel educativo (portada) — fondo ink."""
     img = canvas(FEED, INK)
     node_grid(img, CREAM, step=52, radius=2, alpha=30)
@@ -238,7 +238,7 @@ def tpl_d_carrusel(headline, kicker="CARRUSEL · TIP", page=None):
     return img
 
 
-def tpl_f_auditoria(headline, kicker="SIN COSTE · SIN COMPROMISO",
+def tpl_f_auditoria(headline, kicker="NO COST · NO STRINGS",
                     cta="DM: «AUDIT»", foot="plexglobe.com"):
     """F · Auditoria gratis (lead) — fondo clay."""
     img = canvas(FEED, CLAY)
@@ -258,31 +258,48 @@ def tpl_f_auditoria(headline, kicker="SIN COSTE · SIN COMPROMISO",
 
 
 def tpl_carrusel_punto(numero, titulo, cuerpo, pagina=None):
-    """2/5 · 3/5 · 4/5 — fondo cream, numeral grande en clay (ver PDF p.7)."""
+    """2/5 · 3/5 · 4/5 — fondo cream, numeral grande en clay (ver PDF p.7).
+
+    El bloque se mide y se centra: colgarlo del borde superior dejaba media
+    diapositiva vacia, que en la cuadricula del perfil se ve como un hueco."""
     img = canvas(FEED, CREAM)
     node_grid(img, INK, step=52, radius=2, alpha=26)
     d = ImageDraw.Draw(img)
-    M = 84
+    M, ancho = 84, FEED[0] - 84 * 2
 
-    d.text((M - 6, 120), str(numero).zfill(2), font=grotesk(168, 700), fill=CLAY)
+    # --- medir antes de pintar ------------------------------------------
+    fnum = grotesk(168, 700)
+    num = str(numero).zfill(2)
+    h_num = d.textbbox((0, 0), num, font=fnum)[3]
 
-    y = 360
-    lines = rich_lines(d, titulo, FEED[0] - M * 2, 76, weight=700)
-    y = draw_rich(d, lines, M, y, 76, INK, leading=1.16, italic_color=CLAY)
+    lineas_tit = rich_lines(d, titulo, ancho, 76, weight=700)
+    h_tit = len(lineas_tit) * 76 * 1.16
 
     fb = manrope(36, 450)
-    ancho = FEED[0] - M * 2
-    palabras, linea, y = cuerpo.split(), "", y + 40
-    for w in palabras:
+    lineas_cuerpo, linea = [], ""
+    for w in cuerpo.split():
         prueba = (linea + " " + w).strip()
         if d.textlength(prueba, font=fb) > ancho and linea:
-            d.text((M, y), linea, font=fb, fill=(90, 80, 70))
-            y += 52
+            lineas_cuerpo.append(linea)
             linea = w
         else:
             linea = prueba
     if linea:
-        d.text((M, y), linea, font=fb, fill=(90, 80, 70))
+        lineas_cuerpo.append(linea)
+    h_cuerpo = len(lineas_cuerpo) * 52
+
+    HUECO_NUM, HUECO_CUERPO = 52, 44
+    alto = h_num + HUECO_NUM + h_tit + HUECO_CUERPO + h_cuerpo
+    y = int((FEED[1] - alto) / 2) - 50          # centro optico, no geometrico
+
+    # --- pintar ----------------------------------------------------------
+    d.text((M - 6, y), num, font=fnum, fill=CLAY)
+    y += h_num + HUECO_NUM
+    y = draw_rich(d, lineas_tit, M, y, 76, INK, leading=1.16, italic_color=CLAY)
+    y += HUECO_CUERPO
+    for ln in lineas_cuerpo:
+        d.text((M, y), ln, font=fb, fill=(90, 80, 70))
+        y += 52
 
     d.text((M, FEED[1] - M - 52), "→", font=grotesk(58, 600), fill=CLAY)
     if pagina:
@@ -292,7 +309,7 @@ def tpl_carrusel_punto(numero, titulo, cuerpo, pagina=None):
     return img
 
 
-def tpl_carrusel_cierre(headline, cta="DM: «AUDIT»", foot="plexglobe.com", pagina="5 / 5 · CIERRE"):
+def tpl_carrusel_cierre(headline, cta="DM: «AUDIT»", foot="plexglobe.com", pagina="5 / 5 · LAST"):
     """5/5 — fondo clay, cierre con llamada a la accion."""
     img = canvas(FEED, CLAY)
     node_grid(img, CREAM, step=52, radius=2, alpha=34)
@@ -332,7 +349,7 @@ def tpl_e_testimonial(quote, autor=None, sub=None):
     return img
 
 
-def tpl_b_caso(title, sub, metric, tag="CASO"):
+def tpl_b_caso(title, sub, metric, tag="CASE"):
     """B · Caso / Resultado — foto arriba (trama), datos abajo."""
     img = canvas(FEED, CREAM)
     d = ImageDraw.Draw(img)
@@ -357,7 +374,7 @@ def tpl_b_caso(title, sub, metric, tag="CASO"):
     return img
 
 
-def tpl_story(headline, kicker="DETRÁS DE CÁMARAS", foot="Desliza arriba → auditoría gratis",
+def tpl_story(headline, kicker="BEHIND THE SCENES", foot="Swipe up → free audit",
               bg=CLAY, fg=CREAM):
     """9:16 · portada de reel / story, respetando zona segura."""
     img = canvas(STORY, bg)
@@ -401,10 +418,10 @@ def main():
 
     made.append(save(tpl_d_carrusel(
         "3 señales de que tu web te hace perder clientes",
-        page="1 / 5 · PORTADA"), "D_carrusel_portada.jpg", out))
+        page="1 / 5 · START"), "D_carrusel_portada.jpg", out))
 
     made.append(save(tpl_f_auditoria(
-        "Auditoría *gratis* de tu web"), "F_auditoria_lead.jpg", out))
+        "A *free* check of your site"), "F_auditoria_lead.jpg", out))
 
     made.append(save(tpl_story(
         "Del nodo a la *red*"), "S_story_reel.jpg", out))

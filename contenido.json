@@ -15,24 +15,27 @@
     "nota": "28 posts = 4 semanas. El generador rota por semana del ano, asi que el banco se repite cada 4 semanas. Anade mas entradas cuando quieras alargar el ciclo."
   },
   "hashtags": {
+    "_regla": "Instagram limita a 5 hashtags por publicacion (2026) y pasar de 5 penaliza el alcance. Cada grupo tiene EXACTAMENTE 5 y siempre incluye Miami. NO combinar grupos.",
     "base": [
-      "#Plexglobe",
-      "#DiseñoWeb",
-      "#WebDesign"
+      "#WebDesignMiami",
+      "#DiseñoWebMiami",
+      "#MiamiSmallBusiness",
+      "#MiamiBusiness",
+      "#Plexglobe"
     ],
     "nicho": [
-      "#WebDesignUSA",
-      "#DiseñoWebUSA",
-      "#EstudioDigital",
-      "#SmallBusinessUSA",
-      "#Emprendedores",
-      "#PymesDigitales"
+      "#WebDesignMiami",
+      "#DiseñoWebMiami",
+      "#MiamiSmallBusiness",
+      "#SmallBusinessMiami",
+      "#MiamiEntrepreneur"
     ],
     "seo": [
-      "#SEO",
-      "#SEOLocal",
-      "#PosicionamientoWeb",
-      "#MarketingDigital"
+      "#SEOMiami",
+      "#LocalSEOMiami",
+      "#WebDesignMiami",
+      "#DiseñoWebMiami",
+      "#MiamiSmallBusiness"
     ]
   },
   "posts": [
@@ -42,36 +45,36 @@
       "dia": "lunes",
       "formato": "Carrusel",
       "plantilla": "D",
-      "kicker": "CARRUSEL · TIP",
-      "titular": "3 señales de que tu web te hace perder clientes",
-      "pagina": "1 / 5 · PORTADA",
-      "caption": "Si tu web tarda más de 3 segundos en cargar, la mitad de la gente ya se fue.\n\n1. Lenta\n2. No se ve bien en móvil\n3. Invisible en Google\n\nLas tres se arreglan. Y las tres cuestan dinero mientras no lo hagas.\n\nAuditoría gratis en plexglobe.com",
+      "kicker": "GOT A WEBSITE? READ THIS",
+      "titular": "3 signs your website is costing you clients",
+      "pagina": "1 / 5 · START",
+      "caption": "If your site takes more than 3 seconds to load, half your visitors are already gone.\n\n1. Slow\n2. Broken on mobile\n3. Invisible on Google\n\nAll three are fixable. And all three cost you money until they are.\n\nFree audit at plexglobe.com\n\n— — —\n\nSi tu web tarda más de 3 segundos en cargar, la mitad de la gente ya se fue.\n\n1. Lenta\n2. No se ve bien en móvil\n3. Invisible en Google\n\nLas tres se arreglan. Y las tres cuestan dinero mientras no lo hagas.\n\nAuditoría gratis en plexglobe.com",
       "tags": [
-        "nicho",
-        "seo"
+        "nicho"
       ],
       "slides": [
         {
           "n": 1,
-          "titulo": "Carga lenta",
-          "cuerpo": "Si tarda más de 3 s, la gente se va antes de entrar. Core Web Vitals importan."
+          "titulo": "Slow to load",
+          "cuerpo": "Over 3 seconds and half your visitors leave before they see anything. Core Web Vitals matter."
         },
         {
           "n": 2,
-          "titulo": "Invisible en Google e IA",
-          "cuerpo": "Sin SEO ni GEO no apareces en buscadores ni en respuestas de IA. No te encuentran."
+          "titulo": "Invisible on Google and AI",
+          "cuerpo": "No SEO, no GEO, no presence in search or in AI answers. They simply can't find you."
         },
         {
           "n": 3,
-          "titulo": "No convierte en móvil",
-          "cuerpo": "CTAs escondidos y formularios con fricción hacen perder clientes por el camino."
+          "titulo": "Doesn't convert on mobile",
+          "cuerpo": "Hidden CTAs and clunky forms lose clients on the way to booking."
         }
       ],
-      "cierre": "Te lo revisamos *gratis.*",
+      "cierre": "We check yours. *Free.*",
       "estilo": "A",
       "foto": "olivanova.webp",
       "foco": 0.15,
-      "sub": "Velocidad, móvil y visibilidad.\nLas tres cuestan dinero."
+      "sub": "Speed, mobile and visibility.\nAll three cost you money.",
+      "idioma": "en+es"
     },
     {
       "id": "S1-M",
@@ -79,24 +82,25 @@
       "dia": "martes",
       "formato": "Reel",
       "plantilla": "STORY",
-      "kicker": "DETRÁS DE CÁMARAS",
-      "titular": "Del nodo a la *red*",
-      "pie": "Desliza arriba → auditoría gratis",
-      "caption": "Una web no es una página. Es un sistema: diseño, contenido, SEO y velocidad tirando en la misma dirección.\n\nCuando una pieza falla, se nota en las ventas.",
+      "kicker": "BEHIND THE SCENES",
+      "titular": "From one node to a *network*",
+      "pie": "Swipe up → free audit",
+      "caption": "A website isn't a page. It's a system: design, content, SEO and speed all pulling the same way.\n\nWhen one piece fails, you feel it in sales.\n\n— — —\n\nUna web no es una página. Es un sistema: diseño, contenido, SEO y velocidad tirando en la misma dirección.\n\nCuando una pieza falla, se nota en las ventas.",
       "tags": [
         "base",
         "nicho"
-      ]
+      ],
+      "idioma": "en+es"
     },
     {
       "id": "S1-X",
       "semana": 1,
       "dia": "miércoles",
-      "formato": "Post",
+      "formato": "Reel",
       "plantilla": "F",
-      "kicker": "6 AUDITORÍAS · MIAMI",
-      "titular": "La nota media de las webs que *auditamos.*",
-      "caption": "Auditamos seis webs de salones y centros de belleza de Miami en julio.\n\nNota media: 68 sobre 100. La mejor sacó 76. La peor, 52.\n\nNinguna llegó al notable. Y no eran negocios pequeños ni descuidados: tienen buenas reseñas, clientela fiel y trabajo excelente.\n\nEl problema nunca es el negocio. Es que la web se quedó atrás y nadie se lo dijo.\n\nAuditoría gratis de la tuya en plexglobe.com",
+      "kicker": "6 AUDITS · MIAMI",
+      "titular": "The average score of the sites we *audited.*",
+      "caption": "We audited six salon and beauty websites in Miami this July.\n\nAverage score: 68 out of 100. Best was 76. Worst was 52.\n\nNot one hit 80. And these aren't careless businesses — they have great reviews, loyal clients and genuinely good work.\n\nThe business is never the problem. The website quietly fell behind, and nobody told them.\n\nFree audit of yours at plexglobe.com\n\n— — —\n\nAuditamos seis webs de salones y centros de belleza de Miami en julio.\n\nNota media: 68 sobre 100. La mejor sacó 76. La peor, 52.\n\nNinguna llegó al notable. Y no eran negocios pequeños ni descuidados: tienen buenas reseñas, clientela fiel y trabajo excelente.\n\nEl problema nunca es el negocio. Es que la web se quedó atrás y nadie se lo dijo.\n\nAuditoría gratis de la tuya en plexglobe.com",
       "tags": [
         "nicho",
         "seo"
@@ -104,39 +108,42 @@
       "serie": "auditorias",
       "estilo": "C",
       "dato": "68",
-      "pie": "Sobre 100. Ninguna llegó a 80.",
-      "idioma": "es"
+      "pie": "Out of 100. None reached 80.",
+      "idioma": "en+es",
+      "reel": true
     },
     {
       "id": "S1-J",
       "semana": 1,
       "dia": "jueves",
-      "formato": "Post",
+      "formato": "Reel",
       "plantilla": "A",
-      "titular": "De portales a reservas *propias.*",
-      "sub": "Diseño, desarrollo y SEO hacia un\nobjetivo.",
-      "caption": "No hacemos webs bonitas. Hacemos webs que hacen algo: reservas, llamadas, formularios, ventas.\n\nSi tu web no tiene un objetivo medible, es un folleto caro.\n\nplexglobe.com",
+      "titular": "From portals to *direct* bookings.",
+      "sub": "Design, development and SEO\npointed at one goal.",
+      "caption": "We don't build pretty websites. We build sites that do something: bookings, calls, forms, sales.\n\nIf your site has no measurable goal, it's an expensive brochure.\n\nplexglobe.com\n\n— — —\n\nNo hacemos webs bonitas. Hacemos webs que hacen algo: reservas, llamadas, formularios, ventas.\n\nSi tu web no tiene un objetivo medible, es un folleto caro.\n\nplexglobe.com",
       "tags": [
         "base",
         "nicho"
       ],
       "estilo": "B",
       "foto": "oliva-dashboard.webp",
-      "kicker": "CASO · VALENCIA",
+      "kicker": "CASE · VALENCIA",
       "datos": [
         [
           "15-20%",
-          "comisión antes"
+          "commission before"
         ],
         [
           "0%",
-          "comisión ahora"
+          "commission now"
         ],
         [
-          "3 sem",
-          "en producción"
+          "3 wks",
+          "to launch"
         ]
-      ]
+      ],
+      "idioma": "en+es",
+      "reel": true
     },
     {
       "id": "S1-V",
@@ -144,10 +151,10 @@
       "dia": "viernes",
       "formato": "Reel + Story",
       "plantilla": "STORY",
-      "kicker": "PROCESO",
-      "titular": "Descubrir, diseñar, *construir*",
-      "pie": "Y después, cuidar. Ese es el orden.",
-      "caption": "Cuatro fases, sin saltarse ninguna:\n\nDESCUBRIR — qué vendes y a quién\nDISEÑAR — cómo se ve y cómo se navega\nCONSTRUIR — rápido, en móvil, indexable\nCUIDAR — porque una web sin mantenimiento se pudre\n\nLa mayoría de las agencias te dejan en la tercera.",
+      "kicker": "PROCESS",
+      "titular": "Discover, design, *build*",
+      "pie": "Then maintain it. That's the order.",
+      "caption": "Four phases, none of them skipped:\n\nDISCOVER — what you sell and who buys it\nDESIGN — how it looks and how it moves\nBUILD — fast, mobile, indexable\nMAINTAIN — because a site left alone rots\n\nMost agencies drop you after the third.\n\n— — —\n\nCuatro fases, sin saltarse ninguna:\n\nDESCUBRIR — qué vendes y a quién\nDISEÑAR — cómo se ve y cómo se navega\nCONSTRUIR — rápido, en móvil, indexable\nCUIDAR — porque una web sin mantenimiento se pudre\n\nLa mayoría de las agencias te dejan en la tercera.",
       "tags": [
         "base",
         "nicho"
@@ -155,8 +162,9 @@
       "estilo": "D",
       "foto": "cterra-2.webp",
       "foco": 0.35,
-      "sub": "Descubrir · diseñar · construir",
-      "cta": "AUDITORÍA GRATIS"
+      "sub": "Discover · design · build",
+      "cta": "FREE AUDIT",
+      "idioma": "en+es"
     },
     {
       "id": "S1-S",
@@ -164,17 +172,18 @@
       "dia": "sábado",
       "formato": "Reel / Story",
       "plantilla": "F",
-      "kicker": "AUDITORÍA",
-      "titular": "Te decimos qué falla. Sin *compromiso.*",
-      "cta": "DM: «AUDIT»",
-      "caption": "Te decimos qué falla y cómo arreglarlo. Sin coste, sin compromiso, sin llamada de ventas de 45 minutos.\n\nEscríbenos «AUDIT» por DM y te mandamos el análisis.\n\nES/EN · EE.UU. → global",
+      "kicker": "AUDIT",
+      "titular": "We find what's broken. No *strings.*",
+      "cta": "DM: \"AUDIT\"",
+      "caption": "We tell you what's broken and how to fix it. No cost, no strings, no 45-minute sales call.\n\nDM us \"AUDIT\" and we'll send the analysis.\n\nEN/ES · MIAMI → GLOBAL\n\n— — —\n\nTe decimos qué falla y cómo arreglarlo. Sin coste, sin compromiso, sin llamada de ventas de 45 minutos.\n\nEscríbenos «AUDIT» por DM y te mandamos el análisis.\n\nES/EN · EE.UU. → global",
       "tags": [
         "nicho",
         "base"
       ],
       "estilo": "C",
-      "dato": "0 €",
-      "pie": "DM «AUDIT» · plexglobe.com"
+      "dato": "Free",
+      "pie": "DM \"AUDIT\" · plexglobe.com",
+      "idioma": "en+es"
     },
     {
       "id": "S1-D",
@@ -182,13 +191,14 @@
       "dia": "domingo",
       "formato": "Story",
       "plantilla": "STORY",
-      "kicker": "PREGUNTA",
-      "titular": "¿Tu web *convierte?*",
-      "pie": "Desliza arriba → auditoría gratis",
-      "caption": "Sí / Ni idea. La segunda respuesta es la más común, y es la que cuesta dinero.",
+      "kicker": "QUESTION",
+      "titular": "Does your site *convert?*",
+      "pie": "Swipe up → free audit",
+      "caption": "Yes / No idea. The second answer is the common one, and it's the one that costs money.\n\n— — —\n\nSí / Ni idea. La segunda respuesta es la más común, y es la que cuesta dinero.",
       "tags": [
         "base"
-      ]
+      ],
+      "idioma": "en+es"
     },
     {
       "id": "S2-L",
@@ -196,10 +206,10 @@
       "dia": "lunes",
       "formato": "Carrusel",
       "plantilla": "D",
-      "kicker": "CARRUSEL · MÓVIL",
-      "titular": "7 de cada 10 visitas llegan desde el móvil",
-      "pagina": "1 / 5 · PORTADA",
-      "caption": "Y muchas webs siguen diseñándose primero para ordenador.\n\nSi tu menú no se toca bien con el pulgar, estás perdiendo a la mayoría de tu tráfico antes de que lean nada.",
+      "kicker": "7 OUT OF 10 ARE MOBILE",
+      "titular": "7 out of 10 visits come from a phone",
+      "pagina": "1 / 5 · START",
+      "caption": "And plenty of sites are still designed for desktop first.\n\nIf your menu is hard to tap with a thumb, you're losing most of your traffic before anyone reads a word.\n\n— — —\n\nY muchas webs siguen diseñándose primero para ordenador.\n\nSi tu menú no se toca bien con el pulgar, estás perdiendo a la mayoría de tu tráfico antes de que lean nada.",
       "tags": [
         "nicho",
         "base"
@@ -207,25 +217,26 @@
       "slides": [
         {
           "n": 1,
-          "titulo": "Diseñas para escritorio",
-          "cuerpo": "Y luego lo encoges. Se nota: menús que no se tocan, texto ilegible, botones diminutos."
+          "titulo": "You design for desktop",
+          "cuerpo": "Then you shrink it. It shows: menus you can't tap, unreadable text, tiny buttons."
         },
         {
           "n": 2,
-          "titulo": "El pulgar manda",
-          "cuerpo": "Todo lo importante tiene que caer en la mitad inferior de la pantalla. Ahí llega la mano."
+          "titulo": "The thumb rules",
+          "cuerpo": "Everything that matters belongs in the bottom half of the screen. That's where the hand reaches."
         },
         {
           "n": 3,
-          "titulo": "Un formulario, tres campos",
-          "cuerpo": "Cada campo extra en móvil es gente que abandona. Pide lo mínimo para poder llamar."
+          "titulo": "One form, three fields",
+          "cuerpo": "Every extra field on mobile is people leaving. Ask for the minimum you need to call them back."
         }
       ],
-      "cierre": "Auditamos tu móvil *gratis.*",
+      "cierre": "We audit your mobile *free.*",
       "estilo": "D",
       "foto": "cterra.webp",
       "foco": 0.3,
-      "sub": "7 de cada 10 visitas son móvil"
+      "sub": "7 of 10 visits are mobile",
+      "idioma": "en+es"
     },
     {
       "id": "S2-M",
@@ -233,10 +244,10 @@
       "dia": "martes",
       "formato": "Reel",
       "plantilla": "STORY",
-      "kicker": "AUDITORÍA",
-      "titular": "Tres cosas que miro *primero*",
-      "pie": "Velocidad · móvil · indexación",
-      "caption": "Cuando abro una web por primera vez miro tres cosas antes que el diseño:\n\n1. Cuánto tarda\n2. Cómo se ve en el móvil\n3. Si Google la encuentra\n\nSi falla una, el diseño da igual.",
+      "kicker": "AUDIT",
+      "titular": "Three things I check *first*",
+      "pie": "Speed · mobile · indexing",
+      "caption": "When I open a site for the first time I check three things before the design:\n\n1. How long it takes to load\n2. How it looks on a phone\n3. Whether Google can find it\n\nIf one of them fails, the design doesn't matter.\n\n— — —\n\nCuando abro una web por primera vez miro tres cosas antes que el diseño:\n\n1. Cuánto tarda\n2. Cómo se ve en el móvil\n3. Si Google la encuentra\n\nSi falla una, el diseño da igual.",
       "tags": [
         "seo",
         "nicho"
@@ -244,17 +255,18 @@
       "estilo": "A",
       "foto": "oliva-playa.webp",
       "foco": 0.3,
-      "sub": "Velocidad · móvil · indexación"
+      "sub": "Speed · mobile · indexing",
+      "idioma": "en+es"
     },
     {
       "id": "S2-X",
       "semana": 2,
       "dia": "miércoles",
-      "formato": "Post",
+      "formato": "Reel",
       "plantilla": "F",
-      "kicker": "HALLAZGO REPETIDO",
-      "titular": "Fallaban en *móvil.*",
-      "caption": "De las seis webs que auditamos, cuatro tenían un problema serio en móvil.\n\nNo de diseño: de configuración. Una etiqueta mal puesta, un zoom bloqueado, una maquetación de hace diez años que nunca se adaptó.\n\nSon fallos de minutos que llevan años costando clientes, porque casi nadie prueba su propia web desde el teléfono como lo hace un cliente nuevo.\n\nÁbrela ahora en tu móvil. En serio.",
+      "kicker": "MOST COMMON FINDING",
+      "titular": "Were broken on *mobile.*",
+      "caption": "Four of the six sites we audited had a serious mobile problem.\n\nNot a design problem — a settings problem. One wrong tag. Pinch-zoom disabled. A ten-year-old layout that never adapted.\n\nMinutes to fix. Years of lost bookings.\n\nAlmost nobody opens their own site on a phone the way a first-time client does. Do it right now.\n\n— — —\n\nDe las seis webs que auditamos, cuatro tenían un problema serio en móvil.\n\nNo de diseño: de configuración. Una etiqueta mal puesta, un zoom bloqueado, una maquetación de hace diez años que nunca se adaptó.\n\nSon fallos de minutos que llevan años costando clientes, porque casi nadie prueba su propia web desde el teléfono como lo hace un cliente nuevo.\n\nÁbrela ahora en tu móvil. En serio.",
       "tags": [
         "nicho",
         "base"
@@ -262,41 +274,44 @@
       "serie": "auditorias",
       "estilo": "C",
       "dato": "4 / 6",
-      "pie": "Donde está el 70% del tráfico",
-      "idioma": "es"
+      "pie": "Where most of your clients are",
+      "idioma": "en+es",
+      "reel": true
     },
     {
       "id": "S2-J",
       "semana": 2,
       "dia": "jueves",
-      "formato": "Post",
+      "formato": "Reel",
       "plantilla": "B",
       "titulo_caso": "Villa Oliva Nova",
-      "sub": "Reservas directas · sincronizado\nBooking/Airbnb",
-      "metrica": "100% directas",
-      "caption": "Alojamiento boutique en Valencia. Web propia con motor de reservas y calendarios sincronizados con los portales.\n\nResultado: reservas directas sin doble reserva y sin comisión.\n\n¿Tu negocio vive de un portal? Hablemos.",
+      "sub": "Direct bookings · synced with\nBooking/Airbnb",
+      "metrica": "100% direct",
+      "caption": "Boutique stay in Valencia. Their own site with a booking engine and calendars synced to the platforms.\n\nResult: direct bookings, no double-booking, no commission.\n\nDoes your business live on someone else's platform? Let's talk.\n\n— — —\n\nAlojamiento boutique en Valencia. Web propia con motor de reservas y calendarios sincronizados con los portales.\n\nResultado: reservas directas sin doble reserva y sin comisión.\n\n¿Tu negocio vive de un portal? Hablemos.",
       "tags": [
         "nicho",
         "base"
       ],
       "estilo": "B",
       "foto": "tripcazador.webp",
-      "kicker": "CASO · TRIPCAZADOR",
-      "titular": "Buscador de vuelos en *tiempo real.*",
+      "kicker": "CASE · TRIPCAZADOR",
+      "titular": "Flight search in *real time.*",
       "datos": [
         [
           "750+",
-          "aerolíneas"
+          "airlines"
         ],
         [
           "<2 s",
-          "de respuesta"
+          "response time"
         ],
         [
           "24/7",
-          "rastreo activo"
+          "live tracking"
         ]
-      ]
+      ],
+      "idioma": "en+es",
+      "reel": true
     },
     {
       "id": "S2-V",
@@ -304,14 +319,15 @@
       "dia": "viernes",
       "formato": "Reel + Story",
       "plantilla": "STORY",
-      "kicker": "DETRÁS DE CÁMARAS",
-      "titular": "Antes y *después*",
-      "pie": "Más rápido, más claro, hecho para móvil",
-      "caption": "El rediseño no va de cambiar colores. Va de quitar lo que estorba entre el visitante y la acción que quieres que haga.",
+      "kicker": "BEHIND THE SCENES",
+      "titular": "Before and *after*",
+      "pie": "Faster, clearer, built for the phone",
+      "caption": "A redesign isn't about changing colors. It's about clearing out whatever sits between a visitor and the thing you want them to do.\n\n— — —\n\nEl rediseño no va de cambiar colores. Va de quitar lo que estorba entre el visitante y la acción que quieres que haga.",
       "tags": [
         "base",
         "nicho"
-      ]
+      ],
+      "idioma": "en+es"
     },
     {
       "id": "S2-S",
@@ -319,16 +335,17 @@
       "dia": "sábado",
       "formato": "Reel / Story",
       "plantilla": "F",
-      "kicker": "COMISIONES",
-      "titular": "Lo que te cobra cada *portal.*",
-      "cta": "DM: «AUDIT»",
-      "caption": "Velocidad, móvil, SEO y conversión. Un informe corto y en cristiano, con lo que arreglarías primero.\n\nDM «AUDIT».",
+      "kicker": "COMMISSIONS",
+      "titular": "What every booking site *takes.*",
+      "cta": "DM: \"AUDIT\"",
+      "caption": "Speed, mobile, SEO and conversion. A short report in plain English, with what to fix first.\n\nDM \"AUDIT\".\n\n— — —\n\nVelocidad, móvil, SEO y conversión. Un informe corto y en cristiano, con lo que arreglarías primero.\n\nDM «AUDIT».",
       "tags": [
         "nicho"
       ],
       "estilo": "C",
       "dato": "15-20%",
-      "pie": "Calculamos tu ahorro gratis"
+      "pie": "We calculate your savings, free",
+      "idioma": "en+es"
     },
     {
       "id": "S2-D",
@@ -336,13 +353,14 @@
       "dia": "domingo",
       "formato": "Story",
       "plantilla": "STORY",
-      "kicker": "ENCUESTA",
-      "titular": "¿Cuándo tocaste tu web *por última vez?*",
-      "pie": "Este mes / No me acuerdo",
-      "caption": "«No me acuerdo» suele significar más de dos años. Y en dos años cambia todo: Google, los móviles, tus precios.",
+      "kicker": "POLL",
+      "titular": "When did you *last* touch your site?",
+      "pie": "This month / Can't remember",
+      "caption": "\"Can't remember\" usually means more than two years. And in two years everything changes: Google, phones, your prices.\n\n— — —\n\n«No me acuerdo» suele significar más de dos años. Y en dos años cambia todo: Google, los móviles, tus precios.",
       "tags": [
         "base"
-      ]
+      ],
+      "idioma": "en+es"
     },
     {
       "id": "S3-L",
@@ -350,10 +368,10 @@
       "dia": "lunes",
       "formato": "Carrusel",
       "plantilla": "D",
-      "kicker": "CARRUSEL · VELOCIDAD",
-      "titular": "Un segundo de más son ventas de menos",
-      "pagina": "1 / 5 · PORTADA",
-      "caption": "Las imágenes sin comprimir son la causa número uno de webs lentas. La número dos son los plugins que instalaste y nunca usaste.\n\nNinguna de las dos necesita rehacer la web para arreglarse.",
+      "kicker": "3 SECONDS. THAT'S IT.",
+      "titular": "An extra second costs you sales",
+      "pagina": "1 / 5 · START",
+      "caption": "Uncompressed images are the number one cause of slow websites. Number two is the pile of plugins you installed and never used.\n\nNeither one needs a rebuild to fix.\n\n— — —\n\nLas imágenes sin comprimir son la causa número uno de webs lentas. La número dos son los plugins que instalaste y nunca usaste.\n\nNinguna de las dos necesita rehacer la web para arreglarse.",
       "tags": [
         "nicho",
         "seo"
@@ -361,21 +379,22 @@
       "slides": [
         {
           "n": 1,
-          "titulo": "Imágenes sin comprimir",
-          "cuerpo": "La causa número uno. Fotos de 4 MB que podrían pesar 200 KB sin perder calidad."
+          "titulo": "Uncompressed images",
+          "cuerpo": "The number one cause. 4 MB photos that could be 200 KB with no visible loss."
         },
         {
           "n": 2,
-          "titulo": "Plugins que no usas",
-          "cuerpo": "Cada uno carga scripts en todas las páginas. Instalaste diez, usas dos."
+          "titulo": "Plugins you don't use",
+          "cuerpo": "Each one loads scripts on every page. You installed ten and use two."
         },
         {
           "n": 3,
-          "titulo": "Hosting barato",
-          "cuerpo": "Si el servidor tarda medio segundo en responder, ya empiezas perdiendo."
+          "titulo": "Cheap hosting",
+          "cuerpo": "If the server takes half a second to answer, you're already behind."
         }
       ],
-      "cierre": "Medimos tu web *gratis.*"
+      "cierre": "We measure your site *free.*",
+      "idioma": "en+es"
     },
     {
       "id": "S3-M",
@@ -385,8 +404,8 @@
       "plantilla": "STORY",
       "kicker": "SEO → GEO",
       "titular": "SEO → *GEO*",
-      "pie": "Que la IA te cite, o no exista para ella",
-      "caption": "GEO: optimizar para que los modelos de IA te mencionen cuando alguien les pregunta por tu sector.\n\nRequiere contenido estructurado, datos claros y autoridad real. No hay atajo, pero hay ventaja para quien empiece ya.",
+      "pie": "Get cited by AI, or don't exist to it",
+      "caption": "GEO: optimizing so AI models mention you when someone asks them about your industry.\n\nIt takes structured content, clean data and real authority. No shortcut, but there's an edge for whoever starts now.\n\n— — —\n\nGEO: optimizar para que los modelos de IA te mencionen cuando alguien les pregunta por tu sector.\n\nRequiere contenido estructurado, datos claros y autoridad real. No hay atajo, pero hay ventaja para quien empiece ya.",
       "tags": [
         "seo",
         "nicho"
@@ -394,36 +413,38 @@
       "estilo": "D",
       "foto": "cterra-3.webp",
       "foco": 0.4,
-      "sub": "Que la IA te cite, o no existes"
+      "sub": "Get cited by AI, or you don't exist",
+      "idioma": "en+es"
     },
     {
       "id": "S3-X",
       "semana": 3,
       "dia": "miércoles",
-      "formato": "Post",
+      "formato": "Reel",
       "plantilla": "F",
-      "kicker": "HALLAZGOS · 6 WEBS",
-      "titular": "Problemas encontrados. *Nueve graves.*",
-      "caption": "Veinte hallazgos en seis webs: nueve graves, seis medios, cinco leves.\n\nUna media de más de tres problemas por sitio.\n\nLo llamativo no es la cantidad. Es que ni uno solo era caro de arreglar. Ninguno requería rehacer la web entera. La mayoría se resolvía en una tarde.\n\nLlevaban años ahí porque nadie había mirado.",
+      "kicker": "FINDINGS · 6 SITES",
+      "titular": "Issues found. *Nine critical.*",
+      "caption": "Twenty findings across six websites: nine high severity, six medium, five low.\n\nOver three problems per site.\n\nThe striking part isn't the count. It's that not one of them was expensive to fix. None needed a rebuild. Most were an afternoon's work.\n\nThey'd been sitting there for years because nobody had looked.\n\n— — —\n\nVeinte hallazgos en seis webs: nueve graves, seis medios, cinco leves.\n\nUna media de más de tres problemas por sitio.\n\nLo llamativo no es la cantidad. Es que ni uno solo era caro de arreglar. Ninguno requería rehacer la web entera. La mayoría se resolvía en una tarde.\n\nLlevaban años ahí porque nadie había mirado.",
       "tags": [
         "nicho",
         "seo"
       ],
       "estilo": "C",
       "dato": "20",
-      "pie": "3,3 de media por web",
+      "pie": "3.3 per site on average",
       "serie": "auditorias",
-      "idioma": "es"
+      "idioma": "en+es",
+      "reel": true
     },
     {
       "id": "S3-J",
       "semana": 3,
       "dia": "jueves",
-      "formato": "Post",
+      "formato": "Reel",
       "plantilla": "A",
-      "titular": "Diseño, desarrollo y SEO *en el mismo sitio.*",
-      "sub": "Una conversación. Un responsable.",
-      "caption": "El problema de repartir la web entre tres proveedores es que cuando algo falla, ninguno es el responsable.\n\nES/EN · trabajamos desde EE.UU. hacia mercado global.",
+      "titular": "Design, development and SEO *under one roof.*",
+      "sub": "One conversation. One owner.",
+      "caption": "The problem with splitting your website across three vendors is that when something breaks, none of them owns it.\n\nEN/ES · MIAMI → GLOBAL\n\n— — —\n\nEl problema de repartir la web entre tres proveedores es que cuando algo falla, ninguno es el responsable.\n\nES/EN · trabajamos desde EE.UU. hacia mercado global.",
       "tags": [
         "base",
         "nicho"
@@ -431,7 +452,9 @@
       "estilo": "A",
       "foto": "olivanova-4.webp",
       "foco": 0.25,
-      "kicker": "ESTUDIO DIGITAL"
+      "kicker": "DIGITAL STUDIO",
+      "idioma": "en+es",
+      "reel": true
     },
     {
       "id": "S3-V",
@@ -439,13 +462,14 @@
       "dia": "viernes",
       "formato": "Reel + Story",
       "plantilla": "STORY",
-      "kicker": "PROCESO",
-      "titular": "6 nodos, un *sistema*",
-      "pie": "Así montamos cada proyecto",
-      "caption": "Estructura, contenido, diseño, desarrollo, SEO y mantenimiento. Seis piezas conectadas.\n\nSi contratas solo una, no esperes el resultado de las seis.",
+      "kicker": "PROCESS",
+      "titular": "6 nodes, one *system*",
+      "pie": "How we build every project",
+      "caption": "Structure, content, design, development, SEO and maintenance. Six connected pieces.\n\nHire one of them and don't expect the result of all six.\n\n— — —\n\nEstructura, contenido, diseño, desarrollo, SEO y mantenimiento. Seis piezas conectadas.\n\nSi contratas solo una, no esperes el resultado de las seis.",
       "tags": [
         "base"
-      ]
+      ],
+      "idioma": "en+es"
     },
     {
       "id": "S3-S",
@@ -453,13 +477,14 @@
       "dia": "sábado",
       "formato": "Reel / Story",
       "plantilla": "F",
-      "kicker": "SIN COSTE · SIN COMPROMISO",
-      "titular": "¿Tu web pierde *clientes?*",
-      "cta": "DM: «AUDIT»",
-      "caption": "Te lo decimos gratis. Y si está bien, también te lo decimos.",
+      "kicker": "NO COST · NO STRINGS",
+      "titular": "Is your site losing *clients?*",
+      "cta": "DM: \"AUDIT\"",
+      "caption": "We'll tell you for free. And if it's fine, we'll tell you that too.\n\n— — —\n\nTe lo decimos gratis. Y si está bien, también te lo decimos.",
       "tags": [
         "nicho"
-      ]
+      ],
+      "idioma": "en+es"
     },
     {
       "id": "S3-D",
@@ -467,13 +492,14 @@
       "dia": "domingo",
       "formato": "Story",
       "plantilla": "STORY",
-      "kicker": "RECORDATORIO",
-      "titular": "El link está en la *bio*",
+      "kicker": "REMINDER",
+      "titular": "The link is in the *bio*",
       "pie": "plexglobe.com",
-      "caption": "Auditoría gratis, sin compromiso, en español o inglés.",
+      "caption": "Free audit, no strings, in English or Spanish.\n\n— — —\n\nAuditoría gratis, sin compromiso, en español o inglés.",
       "tags": [
         "base"
-      ]
+      ],
+      "idioma": "en+es"
     },
     {
       "id": "S4-L",
@@ -481,10 +507,10 @@
       "dia": "lunes",
       "formato": "Carrusel",
       "plantilla": "D",
-      "kicker": "CASO · LISTORA",
-      "titular": "Anuncios inmobiliarios escritos por *IA.*",
-      "pagina": "1 / 5 · PORTADA",
-      "caption": "1. Sin llamada a la acción clara\n2. Formularios de 12 campos\n3. Teléfono que no se puede pulsar\n4. Textos escritos para el jefe, no para el cliente\n5. Sin analítica: nadie sabe qué pasa\n\nNinguno es caro de arreglar. Todos cuestan dinero cada día.",
+      "kicker": "CASE · LISTORA",
+      "titular": "Real estate listings written by *AI.*",
+      "pagina": "1 / 5 · START",
+      "caption": "1. No clear call to action\n2. Twelve-field forms\n3. A phone number you can't tap\n4. Copy written for the boss, not the client\n5. No analytics: nobody knows what's happening\n\nNone of them is expensive to fix. All of them cost money every day.\n\n— — —\n\n1. Sin llamada a la acción clara\n2. Formularios de 12 campos\n3. Teléfono que no se puede pulsar\n4. Textos escritos para el jefe, no para el cliente\n5. Sin analítica: nadie sabe qué pasa\n\nNinguno es caro de arreglar. Todos cuestan dinero cada día.",
       "tags": [
         "nicho",
         "base"
@@ -492,37 +518,38 @@
       "slides": [
         {
           "n": 1,
-          "titulo": "Sin llamada a la acción",
-          "cuerpo": "La gente llega, lee y se va. Nadie le dijo qué hacer después."
+          "titulo": "No call to action",
+          "cuerpo": "People land, read, and leave. Nobody told them what to do next."
         },
         {
           "n": 2,
-          "titulo": "Formularios de doce campos",
-          "cuerpo": "Cada campo es gente que abandona. Nombre, contacto y poco más."
+          "titulo": "Twelve-field forms",
+          "cuerpo": "Every field is people dropping off. Name, contact, and not much else."
         },
         {
           "n": 3,
-          "titulo": "Nadie mide nada",
-          "cuerpo": "Sin analítica no sabes qué página vende y cuál sobra. Decides a ciegas."
+          "titulo": "Nobody measures anything",
+          "cuerpo": "With no analytics you don't know which page sells. You're guessing."
         }
       ],
-      "cierre": "Los cinco, revisados *gratis.*",
+      "cierre": "All five, checked *free.*",
       "estilo": "B",
       "foto": "listora.webp",
       "datos": [
         [
           "1 min",
-          "por anuncio"
+          "per listing"
         ],
         [
           "ES/EN",
-          "bilingüe"
+          "bilingual"
         ],
         [
           "0",
-          "plantillas repetidas"
+          "recycled templates"
         ]
-      ]
+      ],
+      "idioma": "en+es"
     },
     {
       "id": "S4-M",
@@ -530,24 +557,25 @@
       "dia": "martes",
       "formato": "Reel",
       "plantilla": "STORY",
-      "kicker": "0:20 · PROCESO",
-      "titular": "Descubrir → diseñar → *construir* → cuidar",
-      "pie": "Cuatro fases. Ninguna opcional.",
-      "caption": "El 90% de los problemas de una web vienen de haberse saltado la primera fase.\n\nSi nadie te preguntó qué querías conseguir, te vendieron una plantilla.",
+      "kicker": "0:20 · PROCESS",
+      "titular": "Discover → design → *build* → maintain",
+      "pie": "Four phases. None optional.",
+      "caption": "90% of website problems come from skipping the first phase.\n\nIf nobody asked what you wanted to achieve, they sold you a template.\n\n— — —\n\nEl 90% de los problemas de una web vienen de haberse saltado la primera fase.\n\nSi nadie te preguntó qué querías conseguir, te vendieron una plantilla.",
       "tags": [
         "base",
         "nicho"
-      ]
+      ],
+      "idioma": "en+es"
     },
     {
       "id": "S4-X",
       "semana": 4,
       "dia": "miércoles",
-      "formato": "Post",
+      "formato": "Reel",
       "plantilla": "F",
-      "kicker": "SEÑALES DE CONFIANZA",
-      "titular": "Usaban un correo *personal* como contacto.",
-      "caption": "Dos de las seis webs auditadas ponían como contacto público un correo personal: uno de Gmail, otro de Yahoo.\n\nParece un detalle. No lo es.\n\nUn cliente que duda entre dos negocios y ve un @yahoo lee «pequeño, improvisado, quizá ya no exista». El de al lado tiene info@sudominio.com y transmite lo contrario, sin haber hecho nada mejor.\n\nCuesta unos euros al año y se configura en veinte minutos.",
+      "kicker": "TRUST SIGNALS",
+      "titular": "Used a *personal* email as their contact.",
+      "caption": "Two of the six sites listed a personal email as their public contact — one Gmail, one Yahoo.\n\nSounds minor. It isn't.\n\nA client choosing between two places sees @yahoo and reads \"small, improvised, might not even exist anymore.\" The competitor down the street has info@theirdomain.com and reads the opposite — without being any better at the job.\n\nA few dollars a year. Twenty minutes to set up.\n\n— — —\n\nDos de las seis webs auditadas ponían como contacto público un correo personal: uno de Gmail, otro de Yahoo.\n\nParece un detalle. No lo es.\n\nUn cliente que duda entre dos negocios y ve un @yahoo lee «pequeño, improvisado, quizá ya no exista». El de al lado tiene info@sudominio.com y transmite lo contrario, sin haber hecho nada mejor.\n\nCuesta unos euros al año y se configura en veinte minutos.",
       "tags": [
         "nicho",
         "base"
@@ -555,25 +583,28 @@
       "estilo": "C",
       "serie": "auditorias",
       "dato": "2 / 6",
-      "pie": "@gmail y @yahoo, no el dominio",
-      "idioma": "es"
+      "pie": "@gmail and @yahoo, not the domain",
+      "idioma": "en+es",
+      "reel": true
     },
     {
       "id": "S4-J",
       "semana": 4,
       "dia": "jueves",
-      "formato": "Post",
+      "formato": "Reel",
       "plantilla": "E",
-      "titular": "Fallos que veo en casi *todas* las webs de pymes.",
-      "caption": "Lo que nos dijo un cliente después de seis meses.\n\nNo prometemos esto a todo el mundo: depende del sector, del volumen y de lo que estés pagando ahora en comisiones. Pero los números se pueden calcular antes de empezar.",
+      "titular": "Mistakes I see on almost *every* small business site.",
+      "caption": "What a client told us after six months.\n\nWe don't promise this to everyone: it depends on your industry, your volume and what you're paying in commissions right now. But the numbers can be worked out before we start.\n\n— — —\n\nLo que nos dijo un cliente después de seis meses.\n\nNo prometemos esto a todo el mundo: depende del sector, del volumen y de lo que estés pagando ahora en comisiones. Pero los números se pueden calcular antes de empezar.",
       "tags": [
         "nicho",
         "base"
       ],
       "estilo": "C",
       "dato": "5",
-      "kicker": "ERRORES",
-      "pie": "Los revisamos gratis"
+      "kicker": "MISTAKES",
+      "pie": "We check them for free",
+      "idioma": "en+es",
+      "reel": true
     },
     {
       "id": "S4-V",
@@ -581,10 +612,10 @@
       "dia": "viernes",
       "formato": "Reel + Story",
       "plantilla": "STORY",
-      "kicker": "CÓMO MEDIMOS",
-      "titular": "Las visitas no pagan *facturas.*",
-      "pie": "No son las visitas",
-      "caption": "Las visitas no pagan facturas. Miramos: formularios enviados, llamadas, reservas, y cuánto cuesta cada una.\n\nSi tu agencia te enseña un gráfico de visitas y nada más, pregunta por qué.",
+      "kicker": "HOW WE MEASURE",
+      "titular": "Traffic doesn't pay the *bills.*",
+      "pie": "It was never the traffic",
+      "caption": "Traffic doesn't pay the bills. We look at forms submitted, calls, bookings, and what each one costs.\n\nIf your agency shows you a traffic chart and nothing else, ask why.\n\n— — —\n\nLas visitas no pagan facturas. Miramos: formularios enviados, llamadas, reservas, y cuánto cuesta cada una.\n\nSi tu agencia te enseña un gráfico de visitas y nada más, pregunta por qué.",
       "tags": [
         "base",
         "seo"
@@ -592,7 +623,8 @@
       "estilo": "A",
       "foto": "cterra-4.webp",
       "foco": 0.3,
-      "sub": "Formularios · llamadas · reservas"
+      "sub": "Forms · calls · bookings",
+      "idioma": "en+es"
     },
     {
       "id": "S4-S",
@@ -600,13 +632,14 @@
       "dia": "sábado",
       "formato": "Reel / Story",
       "plantilla": "F",
-      "kicker": "SIN COSTE · SIN COMPROMISO",
-      "titular": "Auditoría *gratis* de tu web",
-      "cta": "DM: «AUDIT»",
-      "caption": "Última del mes. Escríbenos «AUDIT» y te mandamos el informe esta semana.\n\nES/EN.",
+      "kicker": "NO COST · NO STRINGS",
+      "titular": "A *free* audit of your site",
+      "cta": "DM: \"AUDIT\"",
+      "caption": "Last one this month. DM us \"AUDIT\" and we'll send the report this week.\n\nEN/ES.\n\n— — —\n\nÚltima del mes. Escríbenos «AUDIT» y te mandamos el informe esta semana.\n\nES/EN.",
       "tags": [
         "nicho"
-      ]
+      ],
+      "idioma": "en+es"
     },
     {
       "id": "S4-D",
@@ -614,13 +647,14 @@
       "dia": "domingo",
       "formato": "Story",
       "plantilla": "STORY",
-      "kicker": "CIERRE DE MES",
-      "titular": "Webs y contenido que *conectan*",
+      "kicker": "END OF MONTH",
+      "titular": "Websites and content that *connect*",
       "pie": "plexglobe.com",
-      "caption": "Gracias por estar. Nos vemos el lunes.",
+      "caption": "Thanks for being here. See you Monday.\n\n— — —\n\nGracias por estar. Nos vemos el lunes.",
       "tags": [
         "base"
-      ]
+      ],
+      "idioma": "en+es"
     },
     {
       "id": "S1-X-EN",
@@ -701,6 +735,43 @@
         "nicho",
         "base"
       ]
+    },
+    {
+      "id": "S1-A",
+      "semana": 1,
+      "dia": "martes",
+      "formato": "Post",
+      "plantilla": "F",
+      "estilo": "E",
+      "kicker": "FREE AUDIT",
+      "titular": "What's your website *score?*",
+      "sub": "The same six checks we ran on 6 Miami businesses.",
+      "url": "yourbusiness.com",
+      "nota": 68,
+      "lineas": [
+        [
+          "Page speed",
+          61
+        ],
+        [
+          "Mobile",
+          54
+        ],
+        [
+          "Search & AI",
+          58
+        ],
+        [
+          "Trust signals",
+          72
+        ]
+      ],
+      "cta": "FREE AUDIT · DM «AUDIT»",
+      "tags": [
+        "nicho"
+      ],
+      "idioma": "en+es",
+      "caption": "We scored six Miami businesses on the same six checks. Average: 68 out of 100.\n\nPage speed, mobile, search and AI visibility, trust signals, messaging, conversion.\n\nNot one of the problems we found was expensive to fix. They had just been sitting there for years because nobody had looked.\n\nWant yours? DM «AUDIT» and we run it. No cost, no sales call.\n\n— — —\n\nPuntuamos seis negocios de Miami con las mismas seis pruebas. Media: 68 sobre 100.\n\nVelocidad, móvil, visibilidad en buscadores y en IA, señales de confianza, mensaje y conversión.\n\nNinguno de los fallos que encontramos era caro de arreglar. Llevaban años ahí porque nadie había mirado.\n\n¿Quieres la tuya? Escribe «AUDIT» por DM y te la hacemos. Sin coste y sin llamada de ventas."
     }
   ]
 }
