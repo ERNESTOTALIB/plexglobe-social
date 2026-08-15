@@ -39,15 +39,19 @@ TINTA, CREMA, CLAY = (12, 10, 11), (244, 238, 236), (192, 86, 44)
 # Area que la cuadricula del perfil NO recorta: se come ~10% por lado.
 SEGURO = (140, 430, 940, 1500)
 
-# id de Unsplash de cada foto. Licencia de uso comercial, sin atribucion.
+# Fotos de Unsplash, licencia de uso comercial sin atribucion obligatoria.
+#
+# OJO con la URL: el endpoint /photos/<id>/download NO sirve desde un runner.
+# Devuelve 401 porque redirige a una URL firmada que espera sesion de navegador.
+# Hay que apuntar directamente al CDN images.unsplash.com, que es publico.
 UNSPLASH = {
-    "intro": "rj4MHc5cmkQ",
-    "p1": "-sbE6MDlEuM",
-    "p2": "ibh9J-fIgZU",
-    "p3": "k47w6BeapCs",
-    "p4": "zawAr1FKOMw",
-    "p5": "lyUJDi93uM4",
-    "cierre": "Md_DhaFsnCQ",
+    "intro": "photo-1690335008679-1e319b9fa3d8",
+    "p1": "photo-1597692493647-25bd4240a3f2",
+    "p2": "photo-1621873495884-845a939892d1",
+    "p3": "photo-1641337221253-fdc7237f6b61",
+    "p4": "photo-1535579710123-3c0f261c474e",
+    "p5": "photo-1770334597610-8335702e8ab1",
+    "cierre": "photo-1634449571010-02389ed0f9b0",
 }
 
 PUNTOS = [
@@ -73,7 +77,8 @@ def bajar():
         destino = os.path.join(FOTOS, clave + ".jpg")
         if os.path.exists(destino):
             continue
-        url = "https://unsplash.com/photos/" + ident + "/download?force=true"
+        url = ("https://images.unsplash.com/" + ident +
+               "?w=2400&q=85&fm=jpg&fit=max")
         req = urllib.request.Request(url, headers={"User-Agent": "plexglobe-bot"})
         with urllib.request.urlopen(req, timeout=60) as r, open(destino, "wb") as f:
             f.write(r.read())
