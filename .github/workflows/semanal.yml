@@ -37,8 +37,18 @@ jobs:
           python3 video.py
           for s in 1 2 3 4; do python3 _semana.py $s; done
 
+      - name: Renderizar el reel LISTA
+        # Se descarga sus propias fotos de Unsplash en tiempo de ejecucion, asi
+        # que el repositorio no engorda con binarios que ya viven en otro sitio.
+        run: python3 reel_lista.py
+
       - name: Reescribir el catalogo con los enlaces de video
         run: python3 generar.py
+
+      - name: Anadir el reel LISTA al catalogo
+        # DESPUES de generar.py, que reescribe el catalogo entero: si fuera antes,
+        # se lo llevaria por delante.
+        run: python3 anadir_lista.py
 
       - name: Publicar imagenes en el repositorio
         run: |
