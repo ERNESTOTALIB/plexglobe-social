@@ -1,7 +1,7 @@
 [
   {
-    "id": "S2-L",
-    "semana": 2,
+    "id": "S3-L",
+    "semana": 3,
     "dia": "lunes",
     "idioma": "en+es",
     "alternativa": false,
@@ -10,23 +10,23 @@
     "plantilla": "D",
     "medida": "1080×1350",
     "diapositivas": 5,
-    "imagen_url": "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S2-L_4x5.jpg",
+    "imagen_url": "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S3-L_4x5.jpg",
     "imagenes": [
-      "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S2-L_4x5.jpg",
-      "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S2-L-2_4x5.jpg",
-      "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S2-L-3_4x5.jpg",
-      "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S2-L-4_4x5.jpg",
-      "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S2-L-5_4x5.jpg"
+      "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S3-L_4x5.jpg",
+      "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S3-L-2_4x5.jpg",
+      "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S3-L-3_4x5.jpg",
+      "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S3-L-4_4x5.jpg",
+      "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S3-L-5_4x5.jpg"
     ],
     "video_url": null,
-    "caption": "And plenty of sites are still designed for desktop first.\n\nIf your menu is hard to tap with a thumb, you're losing most of your traffic before anyone reads a word.\n\n— — —\n\nY muchas webs siguen diseñándose primero para ordenador.\n\nSi tu menú no se toca bien con el pulgar, estás perdiendo a la mayoría de tu tráfico antes de que lean nada.\n\n#WebDesignMiami #DiseñoWebMiami #MiamiSmallBusiness #SmallBusinessMiami #MiamiEntrepreneur",
+    "caption": "Uncompressed images are the number one cause of slow websites. Number two is the pile of plugins you installed and never used.\n\nNeither one needs a rebuild to fix.\n\n— — —\n\nLas imágenes sin comprimir son la causa número uno de webs lentas. La número dos son los plugins que instalaste y nunca usaste.\n\nNinguna de las dos necesita rehacer la web para arreglarse.\n\n#WebDesignMiami #DiseñoWebMiami #MiamiSmallBusiness #SmallBusinessMiami #MiamiEntrepreneur",
     "aprobado": "",
     "publicado_ig": "",
     "publicado_fb": ""
   },
   {
-    "id": "S2-M",
-    "semana": 2,
+    "id": "S3-M",
+    "semana": 3,
     "dia": "martes",
     "idioma": "en+es",
     "alternativa": false,
@@ -35,19 +35,19 @@
     "plantilla": "STORY",
     "medida": "1080×1920",
     "diapositivas": 1,
-    "imagen_url": "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S2-M_9x16.jpg",
+    "imagen_url": "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S3-M_9x16.jpg",
     "imagenes": [
-      "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S2-M_9x16.jpg"
+      "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S3-M_9x16.jpg"
     ],
-    "video_url": "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/REEL-P-S2-M_9x16.mp4",
-    "caption": "When I open a site for the first time I check three things before the design:\n\n1. How long it takes to load\n2. How it looks on a phone\n3. Whether Google can find it\n\nIf one of them fails, the design doesn't matter.\n\n— — —\n\nCuando abro una web por primera vez miro tres cosas antes que el diseño:\n\n1. Cuánto tarda\n2. Cómo se ve en el móvil\n3. Si Google la encuentra\n\nSi falla una, el diseño da igual.\n\n#SEOMiami #LocalSEOMiami #WebDesignMiami #DiseñoWebMiami #MiamiSmallBusiness",
+    "video_url": "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/REEL-P-S3-M_9x16.mp4",
+    "caption": "GEO: optimizing so AI models mention you when someone asks them about your industry.\n\nIt takes structured content, clean data and real authority. No shortcut, but there's an edge for whoever starts now.\n\n— — —\n\nGEO: optimizar para que los modelos de IA te mencionen cuando alguien les pregunta por tu sector.\n\nRequiere contenido estructurado, datos claros y autoridad real. No hay atajo, pero hay ventaja para quien empiece ya.\n\n#SEOMiami #LocalSEOMiami #WebDesignMiami #DiseñoWebMiami #MiamiSmallBusiness",
     "aprobado": "",
     "publicado_ig": "",
     "publicado_fb": ""
   },
   {
-    "id": "S2-X",
-    "semana": 2,
+    "id": "S3-X",
+    "semana": 3,
     "dia": "miércoles",
     "idioma": "en+es",
     "alternativa": false,
@@ -56,40 +56,40 @@
     "plantilla": "F",
     "medida": "1080×1350",
     "diapositivas": 1,
-    "imagen_url": "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S2-X_4x5.jpg",
+    "imagen_url": "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S3-X_4x5.jpg",
     "imagenes": [
-      "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S2-X_4x5.jpg"
+      "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S3-X_4x5.jpg"
     ],
-    "video_url": "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/REEL-P-S2-X_9x16.mp4",
-    "caption": "Four of the six sites we audited had a serious mobile problem.\n\nNot a design problem — a settings problem. One wrong tag. Pinch-zoom disabled. A ten-year-old layout that never adapted.\n\nMinutes to fix. Years of lost bookings.\n\nAlmost nobody opens their own site on a phone the way a first-time client does. Do it right now.\n\n— — —\n\nDe las seis webs que auditamos, cuatro tenían un problema serio en móvil.\n\nNo de diseño: de configuración. Una etiqueta mal puesta, un zoom bloqueado, una maquetación de hace diez años que nunca se adaptó.\n\nSon fallos de minutos que llevan años costando clientes, porque casi nadie prueba su propia web desde el teléfono como lo hace un cliente nuevo.\n\nÁbrela ahora en tu móvil. En serio.\n\n#WebDesignMiami #DiseñoWebMiami #MiamiSmallBusiness #SmallBusinessMiami #MiamiEntrepreneur",
+    "video_url": "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/REEL-P-S3-X_9x16.mp4",
+    "caption": "Twenty findings across six websites: nine high severity, six medium, five low.\n\nOver three problems per site.\n\nThe striking part isn't the count. It's that not one of them was expensive to fix. None needed a rebuild. Most were an afternoon's work.\n\nThey'd been sitting there for years because nobody had looked.\n\n— — —\n\nVeinte hallazgos en seis webs: nueve graves, seis medios, cinco leves.\n\nUna media de más de tres problemas por sitio.\n\nLo llamativo no es la cantidad. Es que ni uno solo era caro de arreglar. Ninguno requería rehacer la web entera. La mayoría se resolvía en una tarde.\n\nLlevaban años ahí porque nadie había mirado.\n\n#WebDesignMiami #DiseñoWebMiami #MiamiSmallBusiness #SmallBusinessMiami #MiamiEntrepreneur",
     "aprobado": "",
     "publicado_ig": "",
     "publicado_fb": ""
   },
   {
-    "id": "S2-J",
-    "semana": 2,
+    "id": "S3-J",
+    "semana": 3,
     "dia": "jueves",
     "idioma": "en+es",
     "alternativa": false,
     "serie": "",
     "formato": "Reel",
-    "plantilla": "B",
+    "plantilla": "A",
     "medida": "1080×1350",
     "diapositivas": 1,
-    "imagen_url": "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S2-J_4x5.jpg",
+    "imagen_url": "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S3-J_4x5.jpg",
     "imagenes": [
-      "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S2-J_4x5.jpg"
+      "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S3-J_4x5.jpg"
     ],
-    "video_url": "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/REEL-P-S2-J_9x16.mp4",
-    "caption": "Boutique stay in Valencia. Their own site with a booking engine and calendars synced to the platforms.\n\nResult: direct bookings, no double-booking, no commission.\n\nDoes your business live on someone else's platform? Let's talk.\n\n— — —\n\nAlojamiento boutique en Valencia. Web propia con motor de reservas y calendarios sincronizados con los portales.\n\nResultado: reservas directas sin doble reserva y sin comisión.\n\n¿Tu negocio vive de un portal? Hablemos.\n\n#WebDesignMiami #DiseñoWebMiami #MiamiSmallBusiness #SmallBusinessMiami #MiamiEntrepreneur",
+    "video_url": "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/REEL-P-S3-J_9x16.mp4",
+    "caption": "The problem with splitting your website across three vendors is that when something breaks, none of them owns it.\n\nEN/ES · MIAMI → GLOBAL\n\n— — —\n\nEl problema de repartir la web entre tres proveedores es que cuando algo falla, ninguno es el responsable.\n\nES/EN · trabajamos desde EE.UU. hacia mercado global.\n\n#WebDesignMiami #DiseñoWebMiami #MiamiSmallBusiness #MiamiBusiness #Plexglobe",
     "aprobado": "",
     "publicado_ig": "",
     "publicado_fb": ""
   },
   {
-    "id": "S2-V",
-    "semana": 2,
+    "id": "S3-V",
+    "semana": 3,
     "dia": "viernes",
     "idioma": "en+es",
     "alternativa": false,
@@ -98,19 +98,19 @@
     "plantilla": "STORY",
     "medida": "1080×1920",
     "diapositivas": 1,
-    "imagen_url": "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S2-V_9x16.jpg",
+    "imagen_url": "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S3-V_9x16.jpg",
     "imagenes": [
-      "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S2-V_9x16.jpg"
+      "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S3-V_9x16.jpg"
     ],
-    "video_url": "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/REEL-P-S2-V_9x16.mp4",
-    "caption": "A redesign isn't about changing colors. It's about clearing out whatever sits between a visitor and the thing you want them to do.\n\n— — —\n\nEl rediseño no va de cambiar colores. Va de quitar lo que estorba entre el visitante y la acción que quieres que haga.\n\n#WebDesignMiami #DiseñoWebMiami #MiamiSmallBusiness #MiamiBusiness #Plexglobe",
+    "video_url": "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/REEL-P-S3-V_9x16.mp4",
+    "caption": "Structure, content, design, development, SEO and maintenance. Six connected pieces.\n\nHire one of them and don't expect the result of all six.\n\n— — —\n\nEstructura, contenido, diseño, desarrollo, SEO y mantenimiento. Seis piezas conectadas.\n\nSi contratas solo una, no esperes el resultado de las seis.\n\n#WebDesignMiami #DiseñoWebMiami #MiamiSmallBusiness #MiamiBusiness #Plexglobe",
     "aprobado": "",
     "publicado_ig": "",
     "publicado_fb": ""
   },
   {
-    "id": "S2-S",
-    "semana": 2,
+    "id": "S3-S",
+    "semana": 3,
     "dia": "sábado",
     "idioma": "en+es",
     "alternativa": false,
@@ -119,19 +119,19 @@
     "plantilla": "F",
     "medida": "1080×1350",
     "diapositivas": 1,
-    "imagen_url": "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S2-S_4x5.jpg",
+    "imagen_url": "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S3-S_4x5.jpg",
     "imagenes": [
-      "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S2-S_4x5.jpg"
+      "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S3-S_4x5.jpg"
     ],
-    "video_url": "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/REEL-P-S2-S_9x16.mp4",
-    "caption": "Speed, mobile, SEO and conversion. A short report in plain English, with what to fix first.\n\nDM \"AUDIT\".\n\n— — —\n\nVelocidad, móvil, SEO y conversión. Un informe corto y en cristiano, con lo que arreglarías primero.\n\nDM «AUDIT».\n\n#WebDesignMiami #DiseñoWebMiami #MiamiSmallBusiness #SmallBusinessMiami #MiamiEntrepreneur",
+    "video_url": "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/REEL-P-S3-S_9x16.mp4",
+    "caption": "We'll tell you for free. And if it's fine, we'll tell you that too.\n\n— — —\n\nTe lo decimos gratis. Y si está bien, también te lo decimos.\n\n#WebDesignMiami #DiseñoWebMiami #MiamiSmallBusiness #SmallBusinessMiami #MiamiEntrepreneur",
     "aprobado": "",
     "publicado_ig": "",
     "publicado_fb": ""
   },
   {
-    "id": "S2-D",
-    "semana": 2,
+    "id": "S3-D",
+    "semana": 3,
     "dia": "domingo",
     "idioma": "en+es",
     "alternativa": false,
@@ -140,12 +140,12 @@
     "plantilla": "STORY",
     "medida": "1080×1920",
     "diapositivas": 1,
-    "imagen_url": "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S2-D_9x16.jpg",
+    "imagen_url": "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S3-D_9x16.jpg",
     "imagenes": [
-      "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S2-D_9x16.jpg"
+      "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S3-D_9x16.jpg"
     ],
-    "video_url": "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/REEL-P-S2-D_9x16.mp4",
-    "caption": "\"Can't remember\" usually means more than two years. And in two years everything changes: Google, phones, your prices.\n\n— — —\n\n«No me acuerdo» suele significar más de dos años. Y en dos años cambia todo: Google, los móviles, tus precios.\n\n#WebDesignMiami #DiseñoWebMiami #MiamiSmallBusiness #MiamiBusiness #Plexglobe",
+    "video_url": "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/REEL-P-S3-D_9x16.mp4",
+    "caption": "Free audit, no strings, in English or Spanish.\n\n— — —\n\nAuditoría gratis, sin compromiso, en español o inglés.\n\n#WebDesignMiami #DiseñoWebMiami #MiamiSmallBusiness #MiamiBusiness #Plexglobe",
     "aprobado": "",
     "publicado_ig": "",
     "publicado_fb": ""
