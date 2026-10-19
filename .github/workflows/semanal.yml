@@ -50,6 +50,11 @@ jobs:
         # se lo llevaria por delante.
         run: python3 anadir_lista.py
 
+      - name: Anadir las series extra al catalogo (reels hechos fuera)
+        # Tambien DESPUES de generar.py. Lee extra/*/serie.json y conserva
+        # lo ya aprobado o publicado. Los videos viven en extra/, no en salida/.
+        run: python3 anadir_extra.py
+
       - name: Publicar imagenes en el repositorio
         run: |
           git config user.name  "plexglobe-bot"
