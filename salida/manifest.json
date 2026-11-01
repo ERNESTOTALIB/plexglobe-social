@@ -1,7 +1,7 @@
 [
   {
-    "id": "S3-L",
-    "semana": 3,
+    "id": "S4-L",
+    "semana": 4,
     "dia": "lunes",
     "idioma": "en+es",
     "alternativa": false,
@@ -10,23 +10,23 @@
     "plantilla": "D",
     "medida": "1080×1350",
     "diapositivas": 5,
-    "imagen_url": "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S3-L_4x5.jpg",
+    "imagen_url": "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S4-L_4x5.jpg",
     "imagenes": [
-      "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S3-L_4x5.jpg",
-      "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S3-L-2_4x5.jpg",
-      "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S3-L-3_4x5.jpg",
-      "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S3-L-4_4x5.jpg",
-      "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S3-L-5_4x5.jpg"
+      "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S4-L_4x5.jpg",
+      "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S4-L-2_4x5.jpg",
+      "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S4-L-3_4x5.jpg",
+      "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S4-L-4_4x5.jpg",
+      "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S4-L-5_4x5.jpg"
     ],
     "video_url": null,
-    "caption": "Uncompressed images are the number one cause of slow websites. Number two is the pile of plugins you installed and never used.\n\nNeither one needs a rebuild to fix.\n\n— — —\n\nLas imágenes sin comprimir son la causa número uno de webs lentas. La número dos son los plugins que instalaste y nunca usaste.\n\nNinguna de las dos necesita rehacer la web para arreglarse.\n\n#WebDesignMiami #DiseñoWebMiami #MiamiSmallBusiness #SmallBusinessMiami #MiamiEntrepreneur",
+    "caption": "1. No clear call to action\n2. Twelve-field forms\n3. A phone number you can't tap\n4. Copy written for the boss, not the client\n5. No analytics: nobody knows what's happening\n\nNone of them is expensive to fix. All of them cost money every day.\n\n— — —\n\n1. Sin llamada a la acción clara\n2. Formularios de 12 campos\n3. Teléfono que no se puede pulsar\n4. Textos escritos para el jefe, no para el cliente\n5. Sin analítica: nadie sabe qué pasa\n\nNinguno es caro de arreglar. Todos cuestan dinero cada día.\n\n#WebDesignMiami #DiseñoWebMiami #MiamiSmallBusiness #SmallBusinessMiami #MiamiEntrepreneur",
     "aprobado": "",
     "publicado_ig": "",
     "publicado_fb": ""
   },
   {
-    "id": "S3-M",
-    "semana": 3,
+    "id": "S4-M",
+    "semana": 4,
     "dia": "martes",
     "idioma": "en+es",
     "alternativa": false,
@@ -35,19 +35,19 @@
     "plantilla": "STORY",
     "medida": "1080×1920",
     "diapositivas": 1,
-    "imagen_url": "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S3-M_9x16.jpg",
+    "imagen_url": "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S4-M_9x16.jpg",
     "imagenes": [
-      "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S3-M_9x16.jpg"
+      "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S4-M_9x16.jpg"
     ],
-    "video_url": "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/REEL-P-S3-M_9x16.mp4",
-    "caption": "GEO: optimizing so AI models mention you when someone asks them about your industry.\n\nIt takes structured content, clean data and real authority. No shortcut, but there's an edge for whoever starts now.\n\n— — —\n\nGEO: optimizar para que los modelos de IA te mencionen cuando alguien les pregunta por tu sector.\n\nRequiere contenido estructurado, datos claros y autoridad real. No hay atajo, pero hay ventaja para quien empiece ya.\n\n#SEOMiami #LocalSEOMiami #WebDesignMiami #DiseñoWebMiami #MiamiSmallBusiness",
+    "video_url": "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/REEL-P-S4-M_9x16.mp4",
+    "caption": "90% of website problems come from skipping the first phase.\n\nIf nobody asked what you wanted to achieve, they sold you a template.\n\n— — —\n\nEl 90% de los problemas de una web vienen de haberse saltado la primera fase.\n\nSi nadie te preguntó qué querías conseguir, te vendieron una plantilla.\n\n#WebDesignMiami #DiseñoWebMiami #MiamiSmallBusiness #MiamiBusiness #Plexglobe",
     "aprobado": "",
     "publicado_ig": "",
     "publicado_fb": ""
   },
   {
-    "id": "S3-X",
-    "semana": 3,
+    "id": "S4-X",
+    "semana": 4,
     "dia": "miércoles",
     "idioma": "en+es",
     "alternativa": false,
@@ -56,40 +56,40 @@
     "plantilla": "F",
     "medida": "1080×1350",
     "diapositivas": 1,
-    "imagen_url": "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S3-X_4x5.jpg",
+    "imagen_url": "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S4-X_4x5.jpg",
     "imagenes": [
-      "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S3-X_4x5.jpg"
+      "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S4-X_4x5.jpg"
     ],
-    "video_url": "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/REEL-P-S3-X_9x16.mp4",
-    "caption": "Twenty findings across six websites: nine high severity, six medium, five low.\n\nOver three problems per site.\n\nThe striking part isn't the count. It's that not one of them was expensive to fix. None needed a rebuild. Most were an afternoon's work.\n\nThey'd been sitting there for years because nobody had looked.\n\n— — —\n\nVeinte hallazgos en seis webs: nueve graves, seis medios, cinco leves.\n\nUna media de más de tres problemas por sitio.\n\nLo llamativo no es la cantidad. Es que ni uno solo era caro de arreglar. Ninguno requería rehacer la web entera. La mayoría se resolvía en una tarde.\n\nLlevaban años ahí porque nadie había mirado.\n\n#WebDesignMiami #DiseñoWebMiami #MiamiSmallBusiness #SmallBusinessMiami #MiamiEntrepreneur",
+    "video_url": "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/REEL-P-S4-X_9x16.mp4",
+    "caption": "Two of the six sites listed a personal email as their public contact — one Gmail, one Yahoo.\n\nSounds minor. It isn't.\n\nA client choosing between two places sees @yahoo and reads \"small, improvised, might not even exist anymore.\" The competitor down the street has info@theirdomain.com and reads the opposite — without being any better at the job.\n\nA few dollars a year. Twenty minutes to set up.\n\n— — —\n\nDos de las seis webs auditadas ponían como contacto público un correo personal: uno de Gmail, otro de Yahoo.\n\nParece un detalle. No lo es.\n\nUn cliente que duda entre dos negocios y ve un @yahoo lee «pequeño, improvisado, quizá ya no exista». El de al lado tiene info@sudominio.com y transmite lo contrario, sin haber hecho nada mejor.\n\nCuesta unos euros al año y se configura en veinte minutos.\n\n#WebDesignMiami #DiseñoWebMiami #MiamiSmallBusiness #SmallBusinessMiami #MiamiEntrepreneur",
     "aprobado": "",
     "publicado_ig": "",
     "publicado_fb": ""
   },
   {
-    "id": "S3-J",
-    "semana": 3,
+    "id": "S4-J",
+    "semana": 4,
     "dia": "jueves",
     "idioma": "en+es",
     "alternativa": false,
     "serie": "",
     "formato": "Reel",
-    "plantilla": "A",
+    "plantilla": "E",
     "medida": "1080×1350",
     "diapositivas": 1,
-    "imagen_url": "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S3-J_4x5.jpg",
+    "imagen_url": "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S4-J_4x5.jpg",
     "imagenes": [
-      "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S3-J_4x5.jpg"
+      "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S4-J_4x5.jpg"
     ],
-    "video_url": "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/REEL-P-S3-J_9x16.mp4",
-    "caption": "The problem with splitting your website across three vendors is that when something breaks, none of them owns it.\n\nEN/ES · MIAMI → GLOBAL\n\n— — —\n\nEl problema de repartir la web entre tres proveedores es que cuando algo falla, ninguno es el responsable.\n\nES/EN · trabajamos desde EE.UU. hacia mercado global.\n\n#WebDesignMiami #DiseñoWebMiami #MiamiSmallBusiness #MiamiBusiness #Plexglobe",
+    "video_url": "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/REEL-P-S4-J_9x16.mp4",
+    "caption": "What a client told us after six months.\n\nWe don't promise this to everyone: it depends on your industry, your volume and what you're paying in commissions right now. But the numbers can be worked out before we start.\n\n— — —\n\nLo que nos dijo un cliente después de seis meses.\n\nNo prometemos esto a todo el mundo: depende del sector, del volumen y de lo que estés pagando ahora en comisiones. Pero los números se pueden calcular antes de empezar.\n\n#WebDesignMiami #DiseñoWebMiami #MiamiSmallBusiness #SmallBusinessMiami #MiamiEntrepreneur",
     "aprobado": "",
     "publicado_ig": "",
     "publicado_fb": ""
   },
   {
-    "id": "S3-V",
-    "semana": 3,
+    "id": "S4-V",
+    "semana": 4,
     "dia": "viernes",
     "idioma": "en+es",
     "alternativa": false,
@@ -98,19 +98,19 @@
     "plantilla": "STORY",
     "medida": "1080×1920",
     "diapositivas": 1,
-    "imagen_url": "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S3-V_9x16.jpg",
+    "imagen_url": "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S4-V_9x16.jpg",
     "imagenes": [
-      "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S3-V_9x16.jpg"
+      "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S4-V_9x16.jpg"
     ],
-    "video_url": "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/REEL-P-S3-V_9x16.mp4",
-    "caption": "Structure, content, design, development, SEO and maintenance. Six connected pieces.\n\nHire one of them and don't expect the result of all six.\n\n— — —\n\nEstructura, contenido, diseño, desarrollo, SEO y mantenimiento. Seis piezas conectadas.\n\nSi contratas solo una, no esperes el resultado de las seis.\n\n#WebDesignMiami #DiseñoWebMiami #MiamiSmallBusiness #MiamiBusiness #Plexglobe",
+    "video_url": "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/REEL-P-S4-V_9x16.mp4",
+    "caption": "Traffic doesn't pay the bills. We look at forms submitted, calls, bookings, and what each one costs.\n\nIf your agency shows you a traffic chart and nothing else, ask why.\n\n— — —\n\nLas visitas no pagan facturas. Miramos: formularios enviados, llamadas, reservas, y cuánto cuesta cada una.\n\nSi tu agencia te enseña un gráfico de visitas y nada más, pregunta por qué.\n\n#WebDesignMiami #DiseñoWebMiami #MiamiSmallBusiness #MiamiBusiness #Plexglobe",
     "aprobado": "",
     "publicado_ig": "",
     "publicado_fb": ""
   },
   {
-    "id": "S3-S",
-    "semana": 3,
+    "id": "S4-S",
+    "semana": 4,
     "dia": "sábado",
     "idioma": "en+es",
     "alternativa": false,
@@ -119,19 +119,19 @@
     "plantilla": "F",
     "medida": "1080×1350",
     "diapositivas": 1,
-    "imagen_url": "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S3-S_4x5.jpg",
+    "imagen_url": "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S4-S_4x5.jpg",
     "imagenes": [
-      "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S3-S_4x5.jpg"
+      "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S4-S_4x5.jpg"
     ],
-    "video_url": "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/REEL-P-S3-S_9x16.mp4",
-    "caption": "We'll tell you for free. And if it's fine, we'll tell you that too.\n\n— — —\n\nTe lo decimos gratis. Y si está bien, también te lo decimos.\n\n#WebDesignMiami #DiseñoWebMiami #MiamiSmallBusiness #SmallBusinessMiami #MiamiEntrepreneur",
+    "video_url": "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/REEL-P-S4-S_9x16.mp4",
+    "caption": "Last one this month. DM us \"AUDIT\" and we'll send the report this week.\n\nEN/ES.\n\n— — —\n\nÚltima del mes. Escríbenos «AUDIT» y te mandamos el informe esta semana.\n\nES/EN.\n\n#WebDesignMiami #DiseñoWebMiami #MiamiSmallBusiness #SmallBusinessMiami #MiamiEntrepreneur",
     "aprobado": "",
     "publicado_ig": "",
     "publicado_fb": ""
   },
   {
-    "id": "S3-D",
-    "semana": 3,
+    "id": "S4-D",
+    "semana": 4,
     "dia": "domingo",
     "idioma": "en+es",
     "alternativa": false,
@@ -140,12 +140,12 @@
     "plantilla": "STORY",
     "medida": "1080×1920",
     "diapositivas": 1,
-    "imagen_url": "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S3-D_9x16.jpg",
+    "imagen_url": "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S4-D_9x16.jpg",
     "imagenes": [
-      "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S3-D_9x16.jpg"
+      "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/S4-D_9x16.jpg"
     ],
-    "video_url": "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/REEL-P-S3-D_9x16.mp4",
-    "caption": "Free audit, no strings, in English or Spanish.\n\n— — —\n\nAuditoría gratis, sin compromiso, en español o inglés.\n\n#WebDesignMiami #DiseñoWebMiami #MiamiSmallBusiness #MiamiBusiness #Plexglobe",
+    "video_url": "https://raw.githubusercontent.com/ERNESTOTALIB/plexglobe-social/main/salida/REEL-P-S4-D_9x16.mp4",
+    "caption": "Thanks for being here. See you Monday.\n\n— — —\n\nGracias por estar. Nos vemos el lunes.\n\n#WebDesignMiami #DiseñoWebMiami #MiamiSmallBusiness #MiamiBusiness #Plexglobe",
     "aprobado": "",
     "publicado_ig": "",
     "publicado_fb": ""
